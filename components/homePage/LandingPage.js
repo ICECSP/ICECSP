@@ -9,13 +9,13 @@ export default function LandingPage() {
 
                 </div>
                 <div className="w-3/4 h-full bg-black/80 p-8 px-32 flex flex-col">
-                    <span className="text-white font-extrabold text-5xl leading-relaxed" >First International Conference on Electronics, Communication and Signal Processing 
-                    <br/><span className="text-[1.4em]">(ICECSP 2024)</span>
+                    <span className="text-white font-bold text-5xl leading-relaxed" >International Conference on Electronics, Communication and Signal Processing 
+                    <br/><span className="text-[1.4em]">ICECSP 2024</span>
                     </span>
                 </div>
 
                 <div>
-                    
+
                 </div>
 
             </div>
