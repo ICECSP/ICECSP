@@ -10,5 +10,6 @@ export const cheifPatron = [
                 affiliation: { line1: 'National Institute of Technology Delhi', line2: '' },
                 photo: profile
             }
-    ]
-    }]
+        ]
+    }
+]

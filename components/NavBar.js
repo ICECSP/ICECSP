@@ -14,11 +14,11 @@ const NavRibbon = () => {
   const links = [
     { name: "Home", link: "/" },
     { name: "About", link: "/about" },
-    { name: "Submissions", link: "/submissions" },
     { name: "Tracks", link: "/tracks" },
-    { name: "Speakers", link: "/speakers" },
+    { name: "Submissions", link: "/submissions" },
+    // { name: "Speakers", link: "/speakers" },
     { name: "Committees", link: "/committee" },
-    { name: "Sponsors", link: "/sponsors" },
+    { name: "Contact", link: "/contact" },
   ];
 
   return (

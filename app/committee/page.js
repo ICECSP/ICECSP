@@ -3,7 +3,7 @@ import {cheifPatron} from '@/components/committeePage/data'
 export default function Committees() {
     return (
         <>
-            <Committee data = {cheifPatron} size = {3}/>
+            <Committee data = {cheifPatron} even = {true}/>
         </>
     )
 }
