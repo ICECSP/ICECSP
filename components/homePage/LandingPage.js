@@ -1,5 +1,6 @@
 import Image from "next/image";
 import landingBg from "@/public/images/landingBg.jpg";
+import Venue from "./Venue";
 export default function LandingPage() {
   return (
     <>
@@ -16,9 +17,12 @@ export default function LandingPage() {
               ICECSP 2024
             </button>
           </div>
+          <div className="absolute bottom-0 w-full">
+          <Venue/>
+          </div>
         </div>
         <div className="w-full bottom-0 absolute">
-          <Image src={landingBg} />
+          <Image src={landingBg} alt="NIT delhi" />
         </div>
       </div>
     </>

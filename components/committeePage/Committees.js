@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 
 export default function Committee(props) {
@@ -36,8 +37,8 @@ function UserProfile({ member }) {
                 <div className="flex justify-center pb-6 absolute -top-16 w-full left-0">
                     <div className="mx-auto">
 
-                        <Image src={member.photo} className={`w-32 ring-4 ring-primary90 ring-offset-white ring-offset-4 rounded-full aspect-square object-cover`}
-                            alt="profile image" width={120}
+                        <Image src={member.photo} alt="user" className={`w-32 ring-4 ring-primary90 ring-offset-white ring-offset-4 rounded-full aspect-square object-cover`}
+                           width={120}
                             quality={100} />
                     </div>
                 </div>

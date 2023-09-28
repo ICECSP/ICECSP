@@ -1,4 +1,3 @@
-"use client";
 import Link from "next/link";
 import nitdLogo from "@/public/nitd-logo.png";
 import Image from "next/image";
@@ -50,9 +49,8 @@ const Header = () => {
           className="max-h-16 object-contain"
           alt="NITD"
           width={72}
-          quality={100}
         />
-      <span class="text-3xl font-bold text-black">ICECSP 2024</span>
+      <span className="text-3xl font-bold text-black">ICECSP 2024</span>
       </div>
     </div>
   );
