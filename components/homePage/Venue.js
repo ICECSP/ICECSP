@@ -1,8 +1,8 @@
 export default function Venue() {
   return (
     <div>
-      <div className="lg:flex shadow rounded-lg border border-gray-400 my-5 mx-auto">
-        <div className="bg-primaryDark rounded-lg lg:w-2/12 py-4 block shadow-inner">
+      <div className="lg:flex shadow rounded-lg border border-gray-400 my-5 mx-32">
+        <div className="bg-primaryDark rounded-l-lg lg:w-2/12 py-4 block shadow-inner">
           <div className="text-center tracking-wide">
             <div className="text-white font-bold text-4xl ">8-10</div>
             <div className="text-white font-normal text-2xl">August 2024</div>
