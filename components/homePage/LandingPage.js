@@ -1,5 +1,5 @@
 import Image from "next/image";
-import landingBg from "@/public/images/landingBg.jpg";
+import landingBg from "@/public/images/landingBG.jpg";
 import Venue from "./Venue";
 export default function LandingPage() {
   return (
