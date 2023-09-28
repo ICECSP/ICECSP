@@ -17,18 +17,18 @@ const NavRibbon = () => {
     { name: "Submissions", link: "/submissions" },
     { name: "Tracks", link: "/tracks" },
     { name: "Speakers", link: "/speakers" },
-    { name: "Committees", link: "/committees" },
+    { name: "Committees", link: "/committee" },
     { name: "Sponsors", link: "/sponsors" },
   ];
 
   return (
-    <nav className="md:block bg-blue-700 text-white sticky top-0 z-50">
-      <div className="bg-primaryDark absolute md:static py-1.5 px-6 left-0 w-full md:w-auto mx-auto">
+    <nav className="md:block text-white sticky top-0 z-50">
+      <div className="bg-primaryDark h-14 absolute md:static py-4 px-6 left-0 w-full md:w-auto mx-auto ">
         <ul className=" md:flex md:items-center md:justify-between">
           {links.map((link) => (
             <li key={link.name} className="my-6 md:my-0">
               <Link
-                className="uppercase text-md font-medium hover:text-primary20"
+                className="uppercase text-md font-bold hover:text-primary20"
                 href={link.link}
               >
                 {link.name}
@@ -43,7 +43,7 @@ const NavRibbon = () => {
 
 const Header = () => {
   return (
-    <div className="container mx-auto px-6 py-2">
+    <div className="container mx-auto px-6 py-2 bg-primary05">
       <div className="flex space-x-6 items-center">
         <Image
           src={nitdLogo}
@@ -52,7 +52,7 @@ const Header = () => {
           width={72}
           quality={100}
         />
-      <span class="text-3xl font-bold">ICECSP 2024</span>
+      <span class="text-3xl font-bold text-black">ICECSP 2024</span>
       </div>
     </div>
   );
