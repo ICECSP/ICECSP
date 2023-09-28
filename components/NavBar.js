@@ -22,7 +22,7 @@ const NavRibbon = () => {
   ];
 
   return (
-    <nav className="md:block text-white sticky top-0 z-50">
+    <nav className="md:block w-full text-white sticky top-0 z-50">
       <div className="bg-primaryDark h-14 absolute md:static py-4 px-6 left-0 w-full md:w-auto mx-auto ">
         <ul className=" md:flex md:items-center md:justify-between">
           {links.map((link) => (
