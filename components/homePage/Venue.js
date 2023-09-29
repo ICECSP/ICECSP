@@ -7,12 +7,12 @@ export default function Venue() {
           <div className="font-normal text-xl">August 2024</div>
         </div>
       </div>
-      <div className="w-full flex flex-col justify-center items-start bg-primary05 py-4 tracking-wide rounded-r-lg">
-        <div className="font-semibold text-gray-800 text-xl px-2">
+      <div className="w-full flex flex-col justify-center items-start bg-primary05 py-4 px-6 tracking-wide rounded-r-lg">
+        <div className="font-semibold text-gray-800 text-xl py-1">
           Department of Electronics and Communication, National Institue of Technology Delhi, India
         </div>
 
-        <div className="text-gray-600 font-medium text-sm px-2">
+        <div className="text-gray-600 font-medium text-sm py-1">
           Plot No. FA7, Zone, P1, GT Karnal Road, Delhi, 110036
         </div>
       </div>

@@ -8,11 +8,11 @@ export default function LandingPage() {
         <div className="flex h-full relative z-10">
           <div className="w-1/4 h-full bg-white/50 relative " />
 
-          <div className="w-3/4 h-full bg-black/80 p-8 px-32 flex flex-col">
-            <div className="text-primary10 text-center mt-10 font-bold text-2xl leading-relaxed">
+          <div className="tracking-wider w-3/4 h-full bg-black/80 p-8 px-32 flex flex-col">
+            <div className="text-primary10 text-center mt-10 font-bold text-3xl">
               First International Conference
             </div>
-            <div className="text-primary10 text-center mt-2  font-semibold text-md leading-relaxed">
+            <div className="text-primary10 text-center mt-2  font-semibold text-xl">
               On
             </div>
 
