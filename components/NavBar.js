@@ -50,7 +50,7 @@ const Header = () => {
           alt="NITD"
           width={72}
         />
-      <span className="text-3xl font-bold text-black">ICECSP 2024</span>
+      <span className="text-3xl font-bold text-primary80">ICECSP 2024</span>
       </div>
     </div>
   );
