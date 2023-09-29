@@ -1,13 +1,99 @@
 import profile from "@/public/images/profile.png"
 
-export const cheifPatron = [
+export const honoraryChair = [
     {
         type: "HONORARY CHAIR",
+        members: [
+            {
+                name: 'Prof. Yogesh Singh',
+                designation: 'Vice Chancellor',
+                affiliation: { line1: 'University of Delhi', line2: '' },
+                photo: profile
+            }
+        ]
+    }
+]
+export const generalChair = [
+    {
+        type: "GENERAL CHAIR",
         members: [
             {
                 name: 'Prof. (Dr.) Ajay K. Sharma',
                 designation: 'Director',
                 affiliation: { line1: 'National Institute of Technology Delhi', line2: '' },
+                photo: profile
+            }
+        ]
+    }
+]
+export const organizingChair = [
+    {
+        type: "ORGANIZING CHAIR",
+        members: [
+            {
+                name: 'Prof. (Dr.) Manoj Kumar',
+                designation: 'Professor',
+                affiliation: { line1: 'Department of Electronics and Communication Engineering, NIT Delhi', line2: '' },
+                photo: profile
+            }
+        ]
+    }
+]
+export const organizingSecretary = [
+    {
+        type: "ORGANIZING SECRETARY",
+        members: [
+            {
+                name: 'Dr. Rikmantra Basu',
+                designation: 'Associate Professor',
+                affiliation: { line1: 'Department of Electronics and Communication Engineering, NIT Delhi', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Dr. Manisha Bharti',
+                designation: 'Associate Professor',
+                affiliation: { line1: 'Department of Electronics and Communication Engineering, NIT Delhi', line2: '' },
+                photo: profile
+            }
+        ]
+    }
+]
+
+export const technicalProgramChair = [
+    {
+        type: "TECHNICAL PROGRAM CHAIR",
+        members: [
+            {
+                name: 'Dr. Rikmantra Basu',
+                designation: 'Associate Professor',
+                affiliation: { line1: 'Department of Electronics and Communication Engineering, NIT Delhi', line2: '' },
+                photo: profile
+            }
+        ]
+    }
+]
+export const publicationChair = [
+    {
+        type: "PUBLICATION CHAIR",
+        members: [
+            {
+                name: 'Dr. Manisha Bharti',
+                designation: 'Associate Professor',
+                affiliation: { line1: 'Department of Electronics and Communication Engineering, NIT Delhi', line2: '' },
+                photo: profile
+            }
+        ]
+    }
+]
+
+export const financeChair = [
+    {
+        type: "FINANCE CHAIR/TREASURER",
+        members: [
+            {
+                name: 'Dr. D. Vaithiyanathan',
+                designation: 'Associate Professor',
+                affiliation: { line1: 'Department of Electronics and Communication Engineering, NIT Delhi', line2: '' },
                 photo: profile
             }
         ]
