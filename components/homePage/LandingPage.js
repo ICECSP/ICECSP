@@ -13,11 +13,8 @@ export default function LandingPage() {
               International Conference on Electronics, Communication and Signal
               Processing
             </span>
-            <button className="my-12 w-fit p-6 text-3xl font-bold mx-auto text-white border-4 border-white hover:bg-white hover:text-black transition-colors rounded-lg">
-              ICECSP 2024
-            </button>
           </div>
-          <div className="absolute bottom-0 w-full">
+          <div className="absolute bottom-4 w-full mx-auto">
           <Venue/>
           </div>
         </div>
