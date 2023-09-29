@@ -1,13 +1,41 @@
+export const dates = [
+    {
+      text: "Announcement of Conference",
+      date: "October 05, 2023"
+    },
+    {
+      text: "Full Paper Submission Deadline",
+      date: "April 26, 2024"
+    },
+    {
+      text: "Acceptance Notification Deadline",
+      date: "May 31, 2024"
+    },
+    {
+      text: "Camera Ready Manuscript Deadline",
+      date: "June 10, 2024"
+    },
+    {
+      text: "Conference Registration Deadline",
+      date: "July 5, 2024"
+    },
+    {
+      text: "Conference Dates",
+      date: "August 8-10, 2024"
+    }
+  ];
+  
+
 export const tracks = [
     {
         heading: "Microelectronic Circuits and Systems",
-        Support: [
+        support: [
             "IEEE Electron Device Society",
             "IEEE Photonics Society",
             "IEEE Circuits and Systems Society"
         ],
 
-        Subtracks:
+        subtracks:
             [
                 "Electronic Device Physics",
                 "Photonic / Opto-electronic Devices",
@@ -22,11 +50,11 @@ export const tracks = [
     },
     {
         heading: "Communication Systems and Networks",
-        Support: [
+        support: [
             "IEEE Communication Society"
         ],
 
-        Subtracks: [
+        subtracks: [
             "Optical Fibre Communication and Systems",
             "Computer and Intelligent Communication",
             "Wireless and Broadband Communication and Sensor Networks",
@@ -41,11 +69,11 @@ export const tracks = [
     },
     {
         heading: "Signal and Image Processing",
-        Support: [
+        support: [
             "IEEE Signal Processing Society"
         ],
 
-        Subtracks: [
+        subtracks: [
             "Signal Processing Systems and Algorithms",
             "Radar Signal Processing",
             "Speech and Audio Signal Processing and Coding",
@@ -59,12 +87,12 @@ export const tracks = [
     },
     {
         heading: "VLSI Technology and Embedded Systems",
-        Support: [
+        support: [
             "IEEE Electron Device Society",
             "IEEE Circuits and Systems Society"
         ],
 
-        Subtracks: [
+        subtracks: [
             "VLSI Design",
             "High Speed/Low Power Circuits",
             "Digital Circuits and FPGA Based Designs",
