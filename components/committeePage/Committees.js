@@ -30,7 +30,7 @@ export default function Committee(props) {
     )
 }
 
-function UserProfile({ member }) {
+export function UserProfile({ member }) {
     return (
         <div className={`mt-14 relative w-[18rem] min-h-[15rem] rounded-lg shadow-md hover:shadow-lg hover:scale-[1.02] transition-[shadow,transform] bg-primary10`}>
             <div className="px-6 py-4 pt-24 flex flex-col">

@@ -1,4 +1,8 @@
 import profile from "@/public/images/profile.png"
+import manojkumar from "@/public/images/committees/manojkumar.jpg"
+import manishabharti from "@/public/images/committees/manishabharti.jpg"
+import rikmantrabasu from "@/public/images/committees/rikmantrabasu.jpg"
+
 
 export const honoraryChair = [
     {
@@ -34,7 +38,7 @@ export const organizingChair = [
                 name: 'Prof. (Dr.) Manoj Kumar',
                 designation: 'Professor',
                 affiliation: { line1: 'Department of Electronics and Communication Engineering, NIT Delhi', line2: '' },
-                photo: profile
+                photo: manojkumar
             }
         ]
     }
@@ -47,13 +51,13 @@ export const organizingSecretary = [
                 name: 'Dr. Rikmantra Basu',
                 designation: 'Associate Professor',
                 affiliation: { line1: 'Department of Electronics and Communication Engineering, NIT Delhi', line2: '' },
-                photo: profile
+                photo: rikmantrabasu
             },
             {
                 name: 'Dr. Manisha Bharti',
                 designation: 'Associate Professor',
                 affiliation: { line1: 'Department of Electronics and Communication Engineering, NIT Delhi', line2: '' },
-                photo: profile
+                photo: manishabharti
             }
         ]
     }
