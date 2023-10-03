@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Committee(props) {
   return (
-    <section className={`py-12 ${props.even ? "bg-primary05" : "bg-white"}`}>
+    <section className={`py-12 ${props.even ? "bg-primary05/80" : "bg-primary05/30"}`}>
       <div className="container mx-auto px-6 font-bold text-4xl tracking-widest">
         {props.name}
       </div>
@@ -34,7 +34,7 @@ export default function Committee(props) {
 export function UserProfile({ member }) {
   return (
     <div
-      className={`flex justify-center items-stretch relative w-[18rem] ${member.photo ? "min-h-[15rem] mt-14" : "min-h-[5rem]"} rounded-lg shadow-md hover:shadow-lg hover:scale-[1.02] transition-[shadow,transform] bg-primary10`}>
+      className={`flex justify-center items-stretch relative w-[18rem] ${member.photo ? "min-h-[15rem] mt-14" : "min-h-[5rem]"} rounded-md shadow-md hover:shadow-lg hover:scale-[1.02] transition-[shadow,transform] bg-gradient-to-b to-primary05 from-primary20 ring-1 ring-blue-200`}>
       <div className={`px-6 py-4 justify-center ${member.photo ? "pt-24" : ""} flex flex-col`}>
           {member.photo &&
         <div className="flex justify-center pb-6 absolute -top-16 w-full left-0">
@@ -42,7 +42,7 @@ export function UserProfile({ member }) {
             <Image
               src={member.photo}
               alt="user"
-              className={`w-32 ring-4 ring-primary90 ring-offset-white ring-offset-4 rounded-full aspect-square object-cover`}
+              className={`w-32 ring-4 ring-primary90 ring-offset-white bg-white ring-offset-4 rounded-full aspect-square object-cover`}
               width={120}
               quality={100}
             />
