@@ -50,8 +50,7 @@ const Track = ({ track }) => {
           type="button"
           className="flex items-center justify-between w-full p-5 font-medium text-left text-gray-700 border border-b-0 border-gray-500 rounded-t-xl focus:ring-4 focus:ring-primary05 hover:bg-primary05 transition-[colors, box-shadow]">
           <span
-            className="flex items-center"
-            style={{ color: "red", fontWeight: "bold", fontSize: "1.2rem" }}>
+            className="flex items-center text-primary90 text-lg font-bold">
             {track.heading}
           </span>
           <svg
@@ -71,18 +70,17 @@ const Track = ({ track }) => {
         </button>
       </h2>
       <div className={`${open ? "" : "hidden"}`}>
-        <div className="p-5 border border-b-0 border-gray-200">
+        <ul className="p-5 border border-b-0 border-gray-200">
           {track.subtracks.map((elem, idx) => {
             return (
-              <p
+              <li
                 key={idx}
-                className="mb-2 text-gray-500"
-                style={{ color: "blue", fontWeight: "bold" }}>
+                className="mb-2 text-gray-500 font-semibold">
                 {elem}
-              </p>
+              </li>
             );
           })}
-        </div>
+        </ul>
       </div>
     </div>
   );
