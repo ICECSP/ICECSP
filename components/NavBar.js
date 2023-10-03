@@ -20,7 +20,7 @@ const links = [
   { name: "Important Dates", link: "/importantDates" },
   { name: "Submissions", link: "/submissions" },
   // { name: "Speakers", link: "/speakers" },
-  { name: "Registation Fees", link: "/registrationFees" },
+  { name: "Registration Fees", link: "/registrationFees" },
   { name: "Committees", link: "/committee" },
   { name: "Contributors/Supporters", link: "/sponsors" },
   { name: "Contact", link: "/contact" },
