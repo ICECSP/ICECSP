@@ -4,9 +4,9 @@ import Image from "next/image";
 export default function NavBar() {
   return (
     <>
-    <header className="h-[15vh] flex flex-col">
-      <Header />
-    </header>
+      <header className="h-[15vh] flex flex-col">
+        <Header />
+      </header>
       <NavRibbon />
     </>
   );
@@ -15,12 +15,16 @@ export default function NavBar() {
 const links = [
   { name: "Home", link: "/" },
   { name: "About", link: "/about" },
+  { name: "Call for Papers", link: "/callForPapers" },
   { name: "Tracks", link: "/tracks" },
+  { name: "Important Dates", link: "/importantDates" },
   { name: "Submissions", link: "/submissions" },
   // { name: "Speakers", link: "/speakers" },
+  { name: "Registation Fees", link: "/registrationFees" },
   { name: "Committees", link: "/committee" },
+  { name: "Sponsors/Supporters", link: "/sponsors" },
   { name: "Contact", link: "/contact" },
-]
+];
 
 const NavRibbon = () => {
   return (
@@ -31,8 +35,7 @@ const NavRibbon = () => {
             <li key={link.name} className="my-6 md:my-0">
               <Link
                 className="uppercase text-md font-bold hover:text-primary10"
-                href={link.link}
-              >
+                href={link.link}>
                 {link.name}
               </Link>
             </li>
@@ -53,7 +56,7 @@ const Header = () => {
           alt="NITD"
           width={72}
         />
-      <span className="text-3xl font-bold text-primaryDark">ICECSP 2024</span>
+        <span className="text-3xl font-bold text-primaryDark">ICECSP 2024</span>
       </div>
     </div>
   );
