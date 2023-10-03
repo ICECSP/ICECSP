@@ -6,7 +6,7 @@ export default function LandingPage() {
     <>
       <div className="w-full h-[80vh] relative overflow-hidden">
         <div className="flex h-full relative z-10">
-          <div className="w-1/4 h-full bg-white/50 relative " />
+          <div className="w-1/4 h-full relative " />
 
           <div className="text-center text-primaryLight tracking-wider w-3/4 h-full bg-black/80 p-8 px-32 flex flex-col">
             <div className="mt-10 font-bold text-3xl">

@@ -22,7 +22,7 @@ const links = [
   // { name: "Speakers", link: "/speakers" },
   { name: "Registation Fees", link: "/registrationFees" },
   { name: "Committees", link: "/committee" },
-  { name: "Sponsors/Supporters", link: "/sponsors" },
+  { name: "Contributors/Supporters", link: "/sponsors" },
   { name: "Contact", link: "/contact" },
 ];
 

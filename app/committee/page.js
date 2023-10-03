@@ -24,9 +24,9 @@ export default function Committees() {
       <Committee data={conferenceChair} even={true} />
       <Committee data={organizingSecretary} even={false} />
       <Committee data={steeringCommittee} even={true} />
-      <Committee data={internationalAdvisoryCommittee} even={false} />
-      <Committee data={nationalAdvisoryCommittee} even={true} />
       <Committee data={technicalProgramChair} even={false} />
+      <Committee data={internationalAdvisoryCommittee} even={true} />
+      <Committee data={nationalAdvisoryCommittee} even={false} />
       <Committee data={technicalProgramCommittee} even={true} />
       <Committee data={localOrganisingCommittee} even={false} />
       <Committee data={publicationCommittee} even={true} />
