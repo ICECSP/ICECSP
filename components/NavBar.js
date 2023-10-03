@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function NavBar() {
   return (
     <>
-      <header className="h-[15vh] flex flex-col">
+      <header className="sm:h-[15vh] h-[10vh] flex flex-col">
         <Header />
       </header>
       <NavRibbon />
@@ -34,7 +34,7 @@ const NavRibbon = () => {
           {links.map((link) => (
             <li key={link.name} className="my-6 md:my-0">
               <Link
-                className="uppercase text-md font-bold hover:text-primary10"
+                className="uppercase text-sm xl:text-md font-bold hover:text-primary10"
                 href={link.link}>
                 {link.name}
               </Link>
@@ -52,11 +52,13 @@ const Header = () => {
       <div className="flex gap-x-6 items-center">
         <Image
           src={nitdLogo}
-          className="max-h-16 object-contain"
+          className="sm:max-h-16 max-h-10 object-contain sm:w-16 w-10 "
           alt="NITD"
-          width={72}
         />
-        <span className="text-3xl font-bold text-primaryDark">ICECSP 2024</span>
+        <span className="sm:text-3xl text-2xl font-bold text-primaryDark">ICECSP 2024</span>
+      </div>
+      <div className="sm:hidden">
+        
       </div>
     </div>
   );
