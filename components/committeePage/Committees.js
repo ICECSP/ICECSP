@@ -18,7 +18,7 @@ export default function Committee(props) {
               ) : (
                 ""
               )}
-              <div className="flex flex-wrap justify-center gap-4 lg:gap-8 lg:gap-y-16 items-stretch my-12">
+              <div className={`flex flex-wrap justify-center ${props.onlyData ? "gap-6" : "gap-4 lg:gap-8 lg:gap-y-16"} items-stretch my-12`}>
                 {section.members.map(function (member) {
                   return <UserProfile key={member.name} member={member} />;
                 })}
@@ -34,10 +34,11 @@ export default function Committee(props) {
 export function UserProfile({ member }) {
   return (
     <div
-      className={`mt-14 relative w-[18rem] min-h-[15rem] rounded-lg shadow-md hover:shadow-lg hover:scale-[1.02] transition-[shadow,transform] bg-primary10`}>
-      <div className="px-6 py-4 pt-24 flex flex-col">
+      className={`flex justify-center items-stretch relative w-[18rem] ${member.photo ? "min-h-[15rem] mt-14" : "min-h-[5rem]"} rounded-lg shadow-md hover:shadow-lg hover:scale-[1.02] transition-[shadow,transform] bg-primary10`}>
+      <div className={`px-6 py-4 justify-center ${member.photo ? "pt-24" : ""} flex flex-col`}>
+          {member.photo &&
         <div className="flex justify-center pb-6 absolute -top-16 w-full left-0">
-          <div className="mx-auto">
+           <div className="mx-auto">
             <Image
               src={member.photo}
               alt="user"
@@ -47,12 +48,13 @@ export function UserProfile({ member }) {
             />
           </div>
         </div>
+            }
         <div className={`font-bold py-1 text-lg text-primary90 text-center`}>
           {member.name}
         </div>
-        <p className={`text-black py-1 text-md font-medium text-center`}>
+        {member.designation && <p className={`text-black py-1 text-md font-medium text-center`}>
           {member.designation}
-        </p>
+        </p>}
         <p className={`text-black py-1 leading-tight text-sm text-center`}>
           {member.affiliation.line1}
         </p>

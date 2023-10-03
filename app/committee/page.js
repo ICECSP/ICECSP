@@ -19,21 +19,21 @@ import {
 export default function Committees() {
   return (
     <>
-      <Committee data={honoraryChair} even={true} />
-      <Committee data={conferenceGeneralChair} even={false} />
-      <Committee data={conferenceChair} even={true} />
-      <Committee data={organizingSecretary} even={false} />
-      <Committee data={steeringCommittee} even={true} />
-      <Committee data={technicalProgramChair} even={false} />
-      <Committee data={internationalAdvisoryCommittee} even={true} />
-      <Committee data={nationalAdvisoryCommittee} even={false} />
-      <Committee data={technicalProgramCommittee} even={true} />
-      <Committee data={localOrganisingCommittee} even={false} />
-      <Committee data={publicationCommittee} even={true} />
-      <Committee data={websiteUpdationCommittee} even={false} />
-      <Committee data={hospitality} even={true} />
-      <Committee data={financeChair} even={false} />
-      <Committee data={purchase} even={true} />
+      <Committee data={honoraryChair} even={false} />
+      <Committee data={conferenceGeneralChair} even={true} />
+      <Committee data={conferenceChair} even={false} />
+      <Committee data={organizingSecretary} even={true} />
+      <Committee data={steeringCommittee} even={false} />
+      <Committee data={technicalProgramChair} even={true} />
+      <Committee data={internationalAdvisoryCommittee} even={false} onlyData = {true}/>
+      <Committee data={nationalAdvisoryCommittee} even={true} onlyData = {true}/>
+      <Committee data={technicalProgramCommittee} even={false} onlyData = {true}/>
+      <Committee data={localOrganisingCommittee} even={true} onlyData = {true}/>
+      <Committee data={publicationCommittee} even={false} onlyData = {true}/>
+      <Committee data={websiteUpdationCommittee} even={true} onlyData = {true}/>
+      <Committee data={hospitality} even={false} onlyData = {true}/>
+      <Committee data={financeChair} even={true} onlyData = {true}/>
+      <Committee data={purchase} even={false} onlyData = {true}/>
     </>
   );
 }
