@@ -19,10 +19,9 @@ const links = [
   { name: "Tracks", link: "/tracks" },
   { name: "Important Dates", link: "/importantDates" },
   { name: "Submissions", link: "/submissions" },
-  // { name: "Speakers", link: "/speakers" },
   { name: "Registration Fees", link: "/registrationFees" },
   { name: "Committees", link: "/committee" },
-  { name: "Contributors/Supporters", link: "/sponsors" },
+  { name: "Contributors/Supporters", link: "/commingSoon" },
   { name: "Contact", link: "/contact" },
 ];
 

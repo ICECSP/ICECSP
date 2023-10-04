@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Committee(props) {
   return (
-    <section className={`py-12 ${props.even ? "bg-primary05/80" : "bg-primary05/30"}`}>
+    <section className={`py-12 ${props.even ? "bg-primary10/50" : "bg-primary05/30"}`}>
       <div className="container mx-auto px-6 font-bold text-4xl tracking-widest">
         {props.name}
       </div>
@@ -49,13 +49,13 @@ export function UserProfile({ member }) {
           </div>
         </div>
             }
-        <div className={`font-bold py-1 text-lg text-primary90 text-center`}>
+        <div className={`font-bold py-1 text-lg text-blue-800 text-center`}>
           {member.name}
         </div>
-        {member.designation && <p className={`text-black py-1 text-md font-medium text-center`}>
+        {member.designation && <p className="text-slate-800 py-1 text-sm text-center">
           {member.designation}
         </p>}
-        <p className={`text-black py-1 leading-tight text-sm text-center`}>
+        <p className="text-black py-1 leading-tight text-sm text-center">
           {member.affiliation.line1}
         </p>
         <p className="leading-tight text-xs text-center text-gray-500">
