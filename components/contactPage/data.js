@@ -18,7 +18,7 @@ export const contacts = [
     },
     {
       name: 'Dr. Rikmantra Basu',
-      email: 'Rikmantrabasu@nitelhi.ac.in',
+      email: 'Rikmantrabasu@nitdelhi.ac.in',
       phone: '9899320887, 011-33861159',
       address: 'Dept of ECE, National Institute of Technology, Plot No. FA7, Zone P1, GT Karnal Road, Delhi-110036',
       image : rikmantrabasu
