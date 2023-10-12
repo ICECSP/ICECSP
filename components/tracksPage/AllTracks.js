@@ -17,14 +17,14 @@ export default function AllTracks() {
 const Track = ({ track }) => {
     const [open, setopen] = useState(false);
     return (
-        <div>
+        <div className="my-4 sm:my-3">
             <h2>
                 <button
                     onClick={() => setopen(!open)}
                     type="button"
                     className="flex items-center justify-between w-full p-5 font-medium text-left text-gray-700 border border-b-0 border-gray-500 rounded-t-xl focus:ring-4 focus:ring-primary05 hover:bg-primary05 transition-[colors, box-shadow]">
                     <span
-                        className="flex items-center text-primary90 text-lg font-bold">
+                        className="flex items-center text-primary90 sm:text-lg font-semibold sm:font-bold">
                         {track.heading}
                     </span>
                     <svg
@@ -49,7 +49,7 @@ const Track = ({ track }) => {
                         return (
                             <li
                                 key={idx}
-                                className="mb-2 text-gray-500 font-semibold">
+                                className="mb-2 text-gray-600 sm:font-semibold font-medium">
                                 {elem}
                             </li>
                         );

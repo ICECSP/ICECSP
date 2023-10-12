@@ -1,13 +1,19 @@
+"use client";
+import { useState } from "react";
 import Link from "next/link";
+
 import nitdLogo from "@/public/nitd-logo.png";
 import Image from "next/image";
 export default function NavBar() {
+  const [menu, setMenu] = useState(false);
   return (
     <>
       <header className="sm:h-[15vh] h-[10vh] flex flex-col">
-        <Header />
+        <Header menu={menu} setMenu={setMenu} />
       </header>
-      <NavRibbon />
+      <div className={`${menu ? "" : "hidden"} md:block`}>
+        <NavRibbon setMenu = {()=>setMenu(!menu)} />
+      </div>
     </>
   );
 }
@@ -25,15 +31,16 @@ const links = [
   { name: "Contact", link: "/contact" },
 ];
 
-const NavRibbon = () => {
+const NavRibbon = ({setMenu}) => {
   return (
-    <nav className="bg-primary80 text-white sticky top-0 z-50">
-      <div className="py-3 px-6 left-0 w-full md:w-auto mx-auto ">
+    <nav className="bg-primary90 sm:bg-primary80 text-white sticky top-0 z-50">
+      <div className="py-2 sm:py-3 px-6 left-0 w-full md:w-auto mx-auto ">
         <ul className=" md:flex md:items-center md:justify-between">
           {links.map((link) => (
-            <li key={link.name} className="my-6 md:my-0">
+            <li key={link.name} className="my-5 sm:my-0">
               <Link
-                className="uppercase text-sm xl:text-md font-bold hover:text-primary10"
+                onClick={setMenu}
+                className="uppercase text-sm xl:text-md font-semibold sm:font-bold hover:text-primary10"
                 href={link.link}>
                 {link.name}
               </Link>
@@ -45,9 +52,9 @@ const NavRibbon = () => {
   );
 };
 
-const Header = () => {
+const Header = ({ menu, setMenu }) => {
   return (
-    <div className="px-6 py-2 bg-primary05 grow-[1] flex">
+    <div className="px-6 py-2 bg-primary05 grow-[1] flex items-center justify-between">
       <div className="flex gap-x-6 items-center">
         <Image
           src={nitdLogo}
@@ -56,8 +63,11 @@ const Header = () => {
         />
         <span className="sm:text-3xl text-2xl font-bold text-primaryDark">ICECSP 2024</span>
       </div>
-      <div className="sm:hidden">
-        
+      <div className="md:hidden h-8 w-8 fill-slate-700" onClick={()=>setMenu(!menu)}>
+        {menu ?
+          <svg className="transform rotate-45" height="32px" version="1.1" viewBox="0 0 32 32" width="32px" xmlns="http://www.w3.org/2000/svg"><path d="M28,14H18V4c0-1.104-0.896-2-2-2s-2,0.896-2,2v10H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h10v10c0,1.104,0.896,2,2,2  s2-0.896,2-2V18h10c1.104,0,2-0.896,2-2S29.104,14,28,14z" /></svg> :
+          <svg xmlns="http://www.w3.org/2000/svg" height="32px" version="1.1" viewBox="0 0 32 32" width="32px"><path d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z" /></svg>
+        }
       </div>
     </div>
   );
