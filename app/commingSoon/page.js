@@ -9,9 +9,6 @@ export default function CommingSoon() {
                     <Image src={landingBg} alt="Nit Delhi" style={{height: "inherit"}} />
                 </div>
                 <h1 className="text-5xl md:text-7xl text-white font-bold mb-8 z-10">Coming Soon</h1>
-                <p className="text-white text-xl md:text-2xl">
-                    We're working hard to bring you something amazing. Stay tuned!
-                </p>
             </div>
         </>
     );

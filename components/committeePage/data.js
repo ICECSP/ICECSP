@@ -1,4 +1,3 @@
-import profile from "@/public/images/profile.png";
 import manojkumar from "@/public/images/committees/manojkumar.jpg";
 import manishabharti from "@/public/images/committees/manishabharti.jpg";
 import rikmantrabasu from "@/public/images/committees/rikmantrabasu.jpg";

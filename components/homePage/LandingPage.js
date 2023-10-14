@@ -18,7 +18,7 @@ export default function LandingPage() {
               Electronics, Communication and Signal Processing
             </div>
             <abbr className="mt-4 sm:my-4 font-semibold sm:font-bold text-2xl sm:text-4xl leading-relaxed">
-              (ICECSP - 2024)
+              {"(ICECSP - 2024)"}
             </abbr>
           </div>
           <div className="absolute bottom-2 sm:bottom-4 w-full mx-auto">
