@@ -12,13 +12,13 @@ export default function Committee(props) {
           <div key={idx} className="w-full">
             <div className="mx-auto container py-4">
               {section.type != "main" ? (
-                <h3 className="text-3xl text-primary90 font-bold text-center mb-8 tracking-wide">
+                <h3 className="px-8 text-3xl text-primary90 font-bold text-center mb-8 tracking-wide">
                   {section.type}
                 </h3>
               ) : (
                 ""
               )}
-              <div className={`flex flex-wrap justify-center ${props.onlyData ? "gap-6" : "gap-4 lg:gap-8 lg:gap-y-16"} items-stretch my-12`}>
+              <div className={`flex flex-wrap justify-center ${props.onlyData ? "gap-6" : "gap-4 gap-y-12 lg:gap-8 lg:gap-y-16"} items-stretch my-12 mb-6 sm:mb-12`}>
                 {section.members.map(function (member) {
                   return <UserProfile key={member.name} member={member} />;
                 })}
@@ -34,22 +34,22 @@ export default function Committee(props) {
 export function UserProfile({ member }) {
   return (
     <div
-      className={`flex justify-center items-stretch relative w-[18rem] ${member.photo ? "min-h-[15rem] mt-14" : "min-h-[5rem]"} rounded-md shadow-md hover:shadow-lg hover:scale-[1.02] transition-[shadow,transform] bg-gradient-to-b to-primary05 from-primary20 ring-1 ring-blue-200`}>
-      <div className={`px-6 py-4 justify-center ${member.photo ? "pt-24" : ""} flex flex-col`}>
-          {member.photo &&
-        <div className="flex justify-center pb-6 absolute -top-16 w-full left-0">
-           <div className="mx-auto">
-            <Image
-              src={member.photo}
-              alt="user"
-              className={`w-32 ring-4 ring-primary90 ring-offset-white bg-white ring-offset-4 rounded-full aspect-square object-cover`}
-              width={120}
-              quality={100}
-            />
+      className={`flex justify-center items-stretch relative w-[18rem] ${member.photo ? "min-h-[14rem] sm:min-h-[15rem] mt-14" : "min-h-[5rem]"} rounded-md shadow-md hover:shadow-lg hover:scale-[1.02] transition-[shadow,transform] bg-gradient-to-b to-primary05 from-primary20 ring-1 ring-blue-200`}>
+      <div className={`px-6 py-4 justify-center ${member.photo ? "pt-12 sm:pt-16" : ""} flex flex-col`}>
+        {member.photo &&
+          <div className="flex justify-center pb-6 absolute -top-16 w-full left-0">
+            <div className="mx-auto">
+              <Image
+                src={member.photo}
+                alt="user"
+                className={`w-28 sm:w-32 ring-2 sm:ring-4 ring-primary90 ring-offset-white bg-white ring-offset-2 sm:ring-offset-4 rounded-full aspect-square object-cover`}
+                width={120}
+                quality={100}
+              />
+            </div>
           </div>
-        </div>
-            }
-        <div className={`font-bold py-1 text-lg text-blue-800 text-center`}>
+        }
+        <div className={`font-bold py-1 text-lg text-blue-900 text-center`}>
           {member.name}
         </div>
         {member.designation && <p className="text-slate-800 py-1 text-sm text-center">
