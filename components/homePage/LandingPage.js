@@ -26,7 +26,7 @@ export default function LandingPage() {
           </div>
         </div>
         <div className="w-full inset-0 sm:inset-auto sm:bottom-0 absolute">
-          <Image className="h-full sm:h-auto" src={landingBg} alt="NIT Delhi" />
+          <Image priority className="h-full sm:h-auto" src={landingBg} alt="NIT Delhi" />
         </div>
       </div>
     </>
