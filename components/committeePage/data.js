@@ -184,49 +184,49 @@ export const oversightCommittee = [
     type: "OVERSIGHT COMMITTEE",
     members: [
       {
-        name: "Prof. B.V. Ramana Reddy",
-        designation: "Director",
+        name: "Prof. Ashu Verma",
+        designation: "Lead Member Coordinator for ICECSP",
         affiliation: {
-          line1: "National Institute of Technology Kurukshetra",
-          line2: "",
+          line1: "Section Treasurer & Member-IEEE Delhi Section STDCOM on T & P Act",
+          line2: "Email: ashu.verma@ieee.org",
         },
         photo: ashuverma,
       },
       {
-        name: "Prof. Binod Kumar Kanaujia",
-        designation: "Director",
+        name: "Prof. Chakradhar C Reddy",
+        designation: "Executive Committee Member",
         affiliation: {
-          line1: "Dr B R Ambedkar National Institute of Technology Jalandhar",
-          line2: "",
+          line1: "Member-IEEE Delhi Section STDCOM on T & P Act",
+          line2: "Email: reddy@iitrpr.ac.in",
         },
         photo: ccreddy,
       },
 
       {
-        name: "Prof. (Dr.) Nupur Prakash",
-        designation: "Vice-Chancellor",
-        affiliation: { line1: "The NorthCap University, Gurugram", line2: "" },
+        name: "Prof. Mahesh Bundele",
+        designation: "Executive Committee Member",
+        affiliation: { line1: "Member-IEEE Delhi Section STDCOM on T & P Act", line2: "Email: maheshbundele@poornima.org" },
         photo: maheshbundele,
       },
 
       {
-        name: "Prof. Ghanshyam Singh",
-        designation: "Professor",
+        name: "Prof. Pradeep K Gupta",
+        designation: "Executive Committee Co-opted Member",
         affiliation: {
           line1:
-            "Dept. of Electronics &amp; Communication Engineering, Malaviya National Institute of Technology, Jaipur",
-          line2: "",
+            "Member-IEEE Delhi Section STDCOM on T & P Act",
+          line2: "Email: pkgupta@ieee.org",
         },
         photo: pkgupta,
       },
 
       {
-        name: "Prof. (Dr.) Manoj Kumar",
-        designation: "HOD & Professor",
+        name: "Prof. Rajnish Sharma",
+        designation: "Section Secretary",
         affiliation: {
           line1:
-            "Department of Electronics and Communication Engineering, NIT Delhi",
-          line2: "",
+            "Member-IEEE Delhi Section STDCOM on T & P Act",
+          line2: "Email: rajnish@ieee.org",
         },
         photo: rajnishsharma,
       },
