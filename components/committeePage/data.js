@@ -9,6 +9,13 @@ import bvrreddy from "@/public/images/committees/bvrreddy.jpg";
 import nupurprakash from "@/public/images/committees/nupurprakash.jpg";
 import ghanshyamsingh from "@/public/images/committees/ghanshyamsingh.png";
 
+//oversight
+import ashuverma from "@/public/images/committees/oversight/ashu_verma.jpg"
+import ccreddy from "@/public/images/committees/oversight/ccreddy.jpg"
+import maheshbundele from "@/public/images/committees/oversight/maheshbundele.jpg"
+import pkgupta from "@/public/images/committees/oversight/pkgupta.jpg"
+import rajnishsharma from "@/public/images/committees/oversight/rajnishsharma.jpg"
+
 export const honoraryChair = [
   {
     type: "HONORARY CHAIR",
@@ -168,6 +175,60 @@ export const steeringCommittee = [
           line2: "",
         },
         photo: manojkumar,
+      },
+    ],
+  },
+];
+export const oversightCommittee = [
+  {
+    type: "OVERSIGHT COMMITTEE",
+    members: [
+      {
+        name: "Prof. B.V. Ramana Reddy",
+        designation: "Director",
+        affiliation: {
+          line1: "National Institute of Technology Kurukshetra",
+          line2: "",
+        },
+        photo: ashuverma,
+      },
+      {
+        name: "Prof. Binod Kumar Kanaujia",
+        designation: "Director",
+        affiliation: {
+          line1: "Dr B R Ambedkar National Institute of Technology Jalandhar",
+          line2: "",
+        },
+        photo: ccreddy,
+      },
+
+      {
+        name: "Prof. (Dr.) Nupur Prakash",
+        designation: "Vice-Chancellor",
+        affiliation: { line1: "The NorthCap University, Gurugram", line2: "" },
+        photo: maheshbundele,
+      },
+
+      {
+        name: "Prof. Ghanshyam Singh",
+        designation: "Professor",
+        affiliation: {
+          line1:
+            "Dept. of Electronics &amp; Communication Engineering, Malaviya National Institute of Technology, Jaipur",
+          line2: "",
+        },
+        photo: pkgupta,
+      },
+
+      {
+        name: "Prof. (Dr.) Manoj Kumar",
+        designation: "HOD & Professor",
+        affiliation: {
+          line1:
+            "Department of Electronics and Communication Engineering, NIT Delhi",
+          line2: "",
+        },
+        photo: rajnishsharma,
       },
     ],
   },

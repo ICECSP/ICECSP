@@ -4,6 +4,7 @@ import {
   internationalAdvisoryCommittee,
   honoraryChair,
   organizingSecretary,
+  oversightCommittee,
   technicalProgramChair,
   financeChair,
   conferenceGeneralChair,
@@ -23,6 +24,7 @@ export default function Committees() {
       <Committee data={conferenceGeneralChair} even={true} />
       <Committee data={conferenceChair} even={false} />
       <Committee data={organizingSecretary} even={true} />
+      <Committee data={oversightCommittee} even={true} />
       <Committee data={steeringCommittee} even={false} />
       <Committee data={technicalProgramChair} even={true} />
       <Committee data={internationalAdvisoryCommittee} even={false} onlyData = {true}/>
