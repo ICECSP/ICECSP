@@ -1281,6 +1281,48 @@ export const nationalAdvisoryCommittee = [
           line2: "",
         },
       },
+      {
+        name: "Prof. Pankaj Chandna",
+        affiliation: {
+          line1: "Professor, Department of Mechanical Engineering, NIT Kurukshetra, Haryana",
+          line2: "",
+        },
+      },
+      {
+        name: "Prof. Dharminder Kumar",
+        affiliation: {
+          line1: "Professor Department of Computer Science & Engineering, GJUS&T, Hisar, Haryana",
+          line2: "",
+        },
+      },
+      {
+        name: "Prof. Arvinder Kaur",
+        affiliation: {
+          line1: "Professor, University School of Information, Communication & Technology, GGSIPU, New Delhi.",
+          line2: "",
+        },
+      },
+      {
+        name: "Prof. C.S. Rai",
+        affiliation: {
+          line1: "Professor, University School of Information, Communication & Technology, GGSIPU, New Delhi.",
+          line2: "",
+        },
+      },
+      {
+        name: "Prof. Navin Rajpal",
+        affiliation: {
+          line1: "Professor, University School of Information,Communication & Technology, GGSIPU, New Delhi",
+          line2: "",
+        },
+      },
+      {
+        name: "Prof. Pravin Chandra",
+        affiliation: {
+          line1: "Professor, University School of Information,Communication & Technology, GGSIPU, New Delhi",
+          line2: "",
+        },
+      },
     ],
   },
 ];
