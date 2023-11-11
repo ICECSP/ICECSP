@@ -480,12 +480,6 @@ export const technicalProgramCommittee = [
     type: "TECHNICAL PROGRAM COMMITTEE",
     members: [
       {
-        name: "Prof. Guo-En Chang",
-        designation: "Associate Dean, Chair & Professor,",
-        affiliation: { line1: "National Chung-Cheng University", line2: "" },
-        
-      },
-      {
         name: "Prof. Judy Rorison",
         designation: "Opto-electronics",
         affiliation: {
@@ -496,63 +490,7 @@ export const technicalProgramCommittee = [
         
       },
       {
-        name: "Dr. R. H. Laskar",
-        affiliation: {
-          line1:
-            "Department of Electronics and Communication Engineering, NIT Silchar",
-          line2: "",
-        },
-        
-      },
-      {
-        name: "Prof. Rashmi Gupta",
-        affiliation: {
-          line1:
-            "Department of Electronics and Communication Engineering, NSUT East Campus, Delhi",
-          line2: "",
-        },
-        
-      },
-      {
-        name: "Prof. Munho Kim",
-        affiliation: {
-          line1:
-            "School of Electrical and Electronic Engineering, Nanyang Technological University, Singapore.",
-          line2: "",
-        },
-        
-      },
-      {
-        name: "Dr. Anirban Bandyopadhyay",
-        designation: "Senior Director",
-        affiliation: {
-          line1:
-            "Strategic Applications, GLOBALFOUNDRIES, Inc., Santa Clara, California, USA",
-          line2: "",
-        },
-        
-      },
-      {
-        name: "Dr. Amitesh Kumar",
-        affiliation: {
-          line1:
-            "Department of Electronics and Electrical Engineering Indian Institute of Technology (ISM) Dhanbad",
-          line2: "",
-        },
-        
-      },
-      {
-        name: "Prof. John Dallesasse",
-        affiliation: {
-          line1:
-            "Department of Electrical and Computer Engineering University of Illinois, Urbana-Champaign, USA",
-          line2: "",
-        },
-        
-      },
-
-      {
-        name: "PProf. Richa Bhatia",
+        name: "Prof. Richa Bhatia",
         affiliation: {
           line1:
             "Department of Electronics and Communication Engineering, NSUT East Campus, Delhi",
@@ -565,34 +503,6 @@ export const technicalProgramCommittee = [
         name: "Prof. Manju Khari",
         affiliation: {
           line1: "Department of Computer Science Engineering, JNU, Delhi",
-          line2: "",
-        },
-        
-      },
-
-      {
-        name: "Prof. Bijay K Das",
-        affiliation: {
-          line1:
-            "Department of Electrical Engineering Indian Institute of Technology Madras",
-          line2: "",
-        },
-        
-      },
-      {
-        name: "Dr. Garima Srivastava",
-        affiliation: {
-          line1:
-            "Department of Electronics and Communication Engineering, NSUT East Campus, Delhi",
-          line2: "",
-        },
-        
-      },
-      {
-        name: "Dr. Rohit Kumar",
-        affiliation: {
-          line1:
-            "Department of Electronics and Electrical Engineering DTU, Delhi",
           line2: "",
         },
         
@@ -614,105 +524,7 @@ export const technicalProgramCommittee = [
         
       },
 
-      {
-        name: "Prof. Samit K Ray",
-        affiliation: {
-          line1:
-            "Department of Physics, Indian Institute of Technology Khargapur",
-          line2: "",
-        },
-        
-      },
-
-      {
-        name: "Dr. Deepti Kakkar",
-        affiliation: {
-          line1:
-            "Department of Electronics and Communication Engineering, Dr B R Ambedkar National Institute of Technology, Jalandhar",
-          line2: "",
-        },
-        
-      },
-
-      {
-        name: "Dr. Arti Jain",
-        affiliation: {
-          line1:
-            "Department of Electronics and Communication Engineering, NSUT East Campus, Delhi",
-          line2: "",
-        },
-        
-      },
-
-      {
-        name: "Dr. Govind Murmu",
-        affiliation: {
-          line1:
-            "Department of Electrical and Computer Engineering University of Illinois, Urbana-Champaign, USA",
-          line2: "",
-        },
-        
-      },
-
-      {
-        name: "Dr. Tripti Goel",
-        affiliation: {
-          line1:
-            "Department of Electronics and Communication Engineering, NIT Silchar",
-          line2: "",
-        },
-        
-      },
-      {
-        name: "Prof. Poornima Mittal",
-        affiliation: {
-          line1:
-            "Department of Electronics and Communication Engineering DTU, Delhi",
-          line2: "",
-        },
-        
-      },
-
-      {
-        name: "Prof. Mukesh Kumar",
-        affiliation: {
-          line1:
-            "Department of Electrical Engineering Indian Institute of Technology Indore",
-          line2: "",
-        },
-        
-      },
-
-      {
-        name: "Prof. Sudeb Dasgupta",
-        affiliation: {
-          line1:
-            "Department of Electronics and Communication Engineering Indian Institute of Technology Roorkee",
-          line2: "",
-        },
-        
-      },
-
-      {
-        name: "Prof. Tarun Kanti Bhattacharyya ",
-        affiliation: {
-          line1:
-            "Department of Electronics and Electrical Communication Engineering Indian Institute of Technology Kharagpur ",
-          line2: "",
-        },
-        
-      },
-
-      {
-        name: "Dr. Amita Jain",
-        affiliation: {
-          line1:
-            "Department of Computer Science and Engineering, NSUT East Campus, Delhi",
-          line2: "",
-        },
-        
-      },
-
+      
       {
         name: "Dr. S. K. Tripathy",
         affiliation: {
@@ -740,14 +552,6 @@ export const technicalProgramCommittee = [
             "Department of Electronics and Communication Engineering DTU, Delhi",
           line2: "",
         },
-        
-      },
-
-      {
-        name: "Mr. Preet Yadav",
-        designation:
-          "R &amp; D SOC Technical Program Manager Automotive Processing",
-        affiliation: { line1: "NXP Semiconductors, Noida, India", line2: "" },
         
       },
 
@@ -782,26 +586,6 @@ export const technicalProgramCommittee = [
       },
 
       {
-        name: "Dr. Ashish Payal",
-        affiliation: {
-          line1:
-            "University School of Information, Communication & Technology, GGSIPU, New Delhi",
-          line2: "",
-        },
-        
-      },
-
-      {
-        name: "Dr. Rahul Johari",
-        affiliation: {
-          line1:
-            "University School of Automation And Robotics GGSIPU East campus, New Delhi",
-          line2: "",
-        },
-        
-      },
-
-      {
         name: "Prof. Brahamjeet Singh",
         affiliation: {
           line1:
@@ -822,26 +606,6 @@ export const technicalProgramCommittee = [
       },
 
       {
-        name: "Prof. Shaibal Mukherjee",
-        affiliation: {
-          line1:
-            "Department of Electrical Engineering (Hybrid Nanodevice Research Group) Indian Institute of Technology Indore",
-          line2: "",
-        },
-        
-      },
-
-      {
-        name: "Prof. M. P. S. Bhatia",
-        affiliation: {
-          line1:
-            "Department of Computer Science Engineering NSUT Dwarka, Delhi",
-          line2: "",
-        },
-        
-      },
-
-      {
         name: "Prof. Manoj Gaur",
         affiliation: {
           line1:
@@ -850,25 +614,7 @@ export const technicalProgramCommittee = [
         },
         
       },
-      {
-        name: "Prof. O. P. Sahu",
-        affiliation: {
-          line1:
-            "Department of Electronics and Communication Engineering NIT Kurukshetra",
-          line2: "",
-        },
-        
-      },
 
-      {
-        name: "Prof. Subhananda Chakraborty",
-        affiliation: {
-          line1:
-            "Department of Electrical Engineering Indian Institute of Technology Bombay",
-          line2: "",
-        },
-        
-      },
 
       {
         name: "Prof. Sandeep Arya",
@@ -908,27 +654,6 @@ export const technicalProgramCommittee = [
         },
         
       },
-
-      {
-        name: "Prof. Yogesh Chaba",
-        affiliation: {
-          line1:
-            "Department of Electronics and Communication Engineering GJUS&T, Hisar, Haryana",
-          line2: "",
-        },
-        
-      },
-
-      {
-        name: "Prof. Dinesh Kumar",
-        affiliation: {
-          line1:
-            "Department of Electronics and Communication Engineering DTU, Delhi",
-          line2: "",
-        },
-        
-      },
-
       {
         name: "Prof. Amit Prakash Singh",
         affiliation: {
@@ -936,48 +661,7 @@ export const technicalProgramCommittee = [
             "University School of Information, Communication & Technology, GGSIPU, New Delhi",
           line2: "",
         },
-        
-      },
-
-      {
-        name: "Prof. Anjana Gosain",
-        affiliation: {
-          line1:
-            "University School of Information, Communication & Technology, GGSIPU, New Delhi",
-          line2: "",
-        },
-        
-      },
-
-      {
-        name: "Prof. Bharti Suri",
-        affiliation: {
-          line1:
-            "University School of Information, Communication & Technology, GGSIPU, New Delhi",
-          line2: "",
-        },
-        
-      },
-
-      {
-        name: "Prof. Virendra Prasad Vishwakarma",
-        affiliation: {
-          line1:
-            "University School of Information, Communication & Technology, GGSIPU, New Delhi",
-          line2: "",
-        },
-        
-      },
-
-      {
-        name: "Prof. Ajay Singholi",
-        affiliation: {
-          line1:
-            "University School of Automation and Robotics GGSIPU East campus, New Delhi",
-          line2: "",
-        },
-        
-      },
+      }
     ],
   },
 ];
@@ -1004,39 +688,6 @@ export const internationalAdvisoryCommittee = [
         
       },
       {
-        name: "Prof. Jayanta Sarma",
-        affiliation: { line1: "University of Bath, UK", line2: "" },
-        
-      },
-      {
-        name: "Prof. Judy Rorrison",
-        affiliation: {
-          line1:
-            "Department of Electrical and Electronic Engineering, University of Bristol, UK",
-          line2: "",
-        },
-        
-      },
-      {
-        name: "Prof. Guo-En Chang",
-        affiliation: {
-          line1:
-            "College of Engineering and AIM-HI, National Chun Cheng University, Taiwan",
-          line2: "",
-        },
-        
-      },
-      {
-        name: "Prof. Richard Hogg",
-        designation: "Professor",
-        affiliation: {
-          line1:
-            "Dept. of Electronic and Nanoscale Engineering, University of Glasgow, UK",
-          line2: "",
-        },
-        
-      },
-      {
         name: "Dr. Anirban Bandyopadhyay",
         designation: "Senior Director",
         affiliation: {
@@ -1048,42 +699,11 @@ export const internationalAdvisoryCommittee = [
       },
 
       {
-        name: "Dr. Martin Lopez-Garcia",
-        affiliation: {
-          line1:
-            "Natural and Artificial Photonic Structures and Devices Group, International Iberian Nanotechnology Laboratory, Portugal",
-          line2: "",
-        },
-        
-      },
-
-      {
-        name: "Prof. Arturas Seractis",
-        designation: "Professor & HOD",
-        affiliation: {
-          line1: "Department of Electronics, Vilnius University, Lithuania",
-          line2: "",
-        },
-        
-      },
-
-      {
         name: "Dr. Santosh Kumar",
         designation: "Associate Professor",
         affiliation: {
           line1:
             "Liocheng University, China, School of Physics Science and Information Technology, China",
-          line2: "",
-        },
-        
-      },
-
-      {
-        name: "Dr. Miaoqing Huang",
-        designation: "Associate Professor",
-        affiliation: {
-          line1:
-            "Computer Science & Computer Engineering Department,University of Arkansas, USA",
           line2: "",
         },
         
@@ -1112,44 +732,6 @@ export const internationalAdvisoryCommittee = [
       },
 
       {
-        name: "Dr. Eunice Sari",
-        designation: "Professor",
-        affiliation: { line1: "Murdoch University, Australia", line2: "" },
-        
-      },
-
-      {
-        name: "Dr. Ahmed Hemani",
-        affiliation: {
-          line1:
-            "School of ICT, KTH – Royal Institute of Technology, Kista, Sweden",
-          line2: "",
-        },
-        
-      },
-
-      {
-        name: "Dr. Hironori Washizaki",
-        designation: "Professor",
-        affiliation: {
-          line1: "Department of CSE, Waseda University, Japan",
-          line2: "",
-        },
-        
-      },
-
-      {
-        name: "Dr. Luiz Fernando Capretz",
-        designation: "Professor",
-        affiliation: {
-          line1:
-            "Department of Electrical and Computer Engg. , Western University, Canada",
-          line2: "",
-        },
-        
-      },
-
-      {
         name: "Dr. P K Mahanti",
         designation: "Professor",
         affiliation: {
@@ -1158,17 +740,7 @@ export const internationalAdvisoryCommittee = [
           line2: "",
         },
         
-      },
-
-      {
-        name: "Dr. Narayan Debnath",
-        designation: "Professor",
-        affiliation: {
-          line1: "Department of CSE, Winona State University, USA",
-          line2: "",
-        },
-        
-      },
+      }
     ],
   },
 ];
@@ -1185,34 +757,11 @@ export const nationalAdvisoryCommittee = [
         },
       },
       {
-        name: "Prof. Ranjan Gangopadhyay",
-        affiliation: {
-          line1: "Distinguished Professor LNMIIT, Rajasthan",
-          line2: "Professor (retd.) IIT Khargapur",
-        },
-      },
-      {
         name: "Prof. Vikram Kumar",
         affiliation: {
           line1: "Dr. Raja Ramanna Distinguished DRDO Fellow",
           line2:
             "Solid State Physics Laboratory, Honorary Professor, CARE, IITD, Previous Director of SSPL and CSIR-NPL, India",
-        },
-      },
-      {
-        name: "Prof. Ramgopal Rao",
-        affiliation: {
-          line1: "Group Vice Chancellor, BITS Pilani",
-          line2:
-            "Ex Director, IIT Delhi, Pillay Chair Professor, Department of Electrical Engineering, Indian Institute of Technology (IIT) Delhi",
-        },
-      },
-      {
-        name: "Prof. Sankar K Pal",
-        affiliation: {
-          line1:
-            "Distinguished Scientist and Former Director Indian Statistical Institute, Kolkata, India",
-          line2: "",
         },
       },
       {
@@ -1224,24 +773,9 @@ export const nationalAdvisoryCommittee = [
         },
       },
       {
-        name: "Prof. R. K. Sharma",
-        affiliation: {
-          line1:
-            "Department of Electronics & Communication Engg., NIT Kurukshetra",
-          line2: "",
-        },
-      },
-      {
         name: "Prof. Karmeshu",
         affiliation: {
           line1: "Department of Computer Science Engg., JNU Delhi",
-          line2: "",
-        },
-      },
-      {
-        name: "Prof. K. K. Biswas",
-        affiliation: {
-          line1: "Department of Computer Science Engg., IIIT Delhi",
           line2: "",
         },
       },
@@ -1268,61 +802,12 @@ export const nationalAdvisoryCommittee = [
         },
       },
       {
-        name: "Prof. B. V. Ramana Reddy",
-        affiliation: {
-          line1: "Director, NIT Kurukshetra, Haryana",
-          line2: "",
-        },
-      },
-      {
-        name: "Prof. Prerna Gaur",
-        affiliation: {
-          line1: "Professor, Department of ECE, NSUT, Delhi",
-          line2: "",
-        },
-      },
-      {
-        name: "Prof. Pankaj Chandna",
-        affiliation: {
-          line1: "Professor, Department of Mechanical Engineering, NIT Kurukshetra, Haryana",
-          line2: "",
-        },
-      },
-      {
         name: "Prof. Dharminder Kumar",
         affiliation: {
           line1: "Professor Department of Computer Science & Engineering, GJUS&T, Hisar, Haryana",
           line2: "",
         },
-      },
-      {
-        name: "Prof. Arvinder Kaur",
-        affiliation: {
-          line1: "Professor, University School of Information, Communication & Technology, GGSIPU, New Delhi.",
-          line2: "",
-        },
-      },
-      {
-        name: "Prof. C.S. Rai",
-        affiliation: {
-          line1: "Professor, University School of Information, Communication & Technology, GGSIPU, New Delhi.",
-          line2: "",
-        },
-      },
-      {
-        name: "Prof. Navin Rajpal",
-        affiliation: {
-          line1: "Professor, University School of Information,Communication & Technology, GGSIPU, New Delhi",
-          line2: "",
-        },
-      },
-      {
-        name: "Prof. Pravin Chandra",
-        affiliation: {
-          line1: "Professor, University School of Information,Communication & Technology, GGSIPU, New Delhi",
-          line2: "",
-        },
-      },
+      }
     ],
   },
 ];
