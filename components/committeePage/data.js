@@ -10,11 +10,11 @@ import nupurprakash from "@/public/images/committees/nupurprakash.jpg";
 import ghanshyamsingh from "@/public/images/committees/ghanshyamsingh.png";
 
 //oversight
-import ashuverma from "@/public/images/committees/oversight/ashu_verma.jpg"
-import ccreddy from "@/public/images/committees/oversight/ccreddy.jpg"
-import maheshbundele from "@/public/images/committees/oversight/maheshbundele.jpg"
-import pkgupta from "@/public/images/committees/oversight/pkgupta.jpg"
-import rajnishsharma from "@/public/images/committees/oversight/rajnishsharma.jpg"
+import ashuverma from "@/public/images/committees/oversight/ashu_verma.jpg";
+import ccreddy from "@/public/images/committees/oversight/ccreddy.jpg";
+import maheshbundele from "@/public/images/committees/oversight/maheshbundele.jpg";
+import pkgupta from "@/public/images/committees/oversight/pkgupta.jpg";
+import rajnishsharma from "@/public/images/committees/oversight/rajnishsharma.jpg";
 
 export const honoraryChair = [
   {
@@ -119,7 +119,6 @@ export const publicationChair = [
             "Department of Electronics and Communication Engineering, NIT Delhi",
           line2: "",
         },
-        
       },
     ],
   },
@@ -187,7 +186,8 @@ export const oversightCommittee = [
         name: "Prof. Ashu Verma",
         designation: "Lead Member Coordinator for ICECSP",
         affiliation: {
-          line1: "Section Treasurer & Member-IEEE Delhi Section STDCOM on T & P Act",
+          line1:
+            "Section Treasurer & Member-IEEE Delhi Section STDCOM on T & P Act",
           line2: "Email: ashu.verma@ieee.org",
         },
         photo: ashuverma,
@@ -205,7 +205,10 @@ export const oversightCommittee = [
       {
         name: "Prof. Mahesh Bundele",
         designation: "Executive Committee Member",
-        affiliation: { line1: "Member-IEEE Delhi Section STDCOM on T & P Act", line2: "Email: maheshbundele@poornima.org" },
+        affiliation: {
+          line1: "Member-IEEE Delhi Section STDCOM on T & P Act",
+          line2: "Email: maheshbundele@poornima.org",
+        },
         photo: maheshbundele,
       },
 
@@ -213,8 +216,7 @@ export const oversightCommittee = [
         name: "Prof. Pradeep K Gupta",
         designation: "Executive Committee Co-opted Member",
         affiliation: {
-          line1:
-            "Member-IEEE Delhi Section STDCOM on T & P Act",
+          line1: "Member-IEEE Delhi Section STDCOM on T & P Act",
           line2: "Email: pkgupta@ieee.org",
         },
         photo: pkgupta,
@@ -224,8 +226,7 @@ export const oversightCommittee = [
         name: "Prof. Rajnish Sharma",
         designation: "Section Secretary",
         affiliation: {
-          line1:
-            "Member-IEEE Delhi Section STDCOM on T & P Act",
+          line1: "Member-IEEE Delhi Section STDCOM on T & P Act",
           line2: "Email: rajnish@ieee.org",
         },
         photo: rajnishsharma,
@@ -241,7 +242,6 @@ export const publicationCommittee = [
         name: "Prof. Jasdeep Kaur Dhanoa(CHAIR)",
         designation: "Professor",
         affiliation: { line1: "Dept. of ECE, IGDTUW Delhi", line2: "" },
-        
       },
       {
         name: "Prof. (Dr.) Manoj Kumar",
@@ -261,7 +261,6 @@ export const publicationCommittee = [
             "Department of Electronics and Communication Engineering, NIT Delhi",
           line2: "",
         },
-        
       },
 
       {
@@ -282,7 +281,6 @@ export const publicationCommittee = [
             "Department of Electronics and Communication Engineering, NIT Delhi",
           line2: "",
         },
-        
       },
 
       {
@@ -293,7 +291,6 @@ export const publicationCommittee = [
             "Department of Electronics and Communication Engineering, NIT Delhi",
           line2: "",
         },
-        
       },
     ],
   },
@@ -320,7 +317,6 @@ export const websiteUpdationCommittee = [
             "Department of Electronics and Communication Engineering, NIT Delhi",
           line2: "",
         },
-        
       },
 
       {
@@ -331,7 +327,6 @@ export const websiteUpdationCommittee = [
             "Department of Electronics and Communication Engineering, NIT Delhi",
           line2: "",
         },
-        
       },
       {
         name: "Dr. Preeti Verma",
@@ -341,7 +336,6 @@ export const websiteUpdationCommittee = [
             "Department of Electronics and Communication Engineering, NIT Delhi",
           line2: "",
         },
-        
       },
     ],
   },
@@ -359,7 +353,6 @@ export const hospitality = [
             "Department of Electronics and Communication Engineering, NIT Delhi",
           line2: "",
         },
-        
       },
 
       {
@@ -370,7 +363,6 @@ export const hospitality = [
             "Department of Electronics and Communication Engineering, NIT Delhi",
           line2: "",
         },
-        
       },
 
       {
@@ -381,7 +373,6 @@ export const hospitality = [
             "Department of Electronics and Communication Engineering, NIT Delhi",
           line2: "",
         },
-        
       },
 
       {
@@ -392,7 +383,6 @@ export const hospitality = [
             "Department of Electronics and Communication Engineering, NIT Delhi",
           line2: "",
         },
-        
       },
     ],
   },
@@ -409,7 +399,6 @@ export const financeChair = [
             "Department of Electronics and Communication Engineering, NIT Delhi",
           line2: "",
         },
-        
       },
       {
         name: "Dr. Wangkheirakpam Vandana Devi",
@@ -419,7 +408,6 @@ export const financeChair = [
             "Department of Electronics and Communication Engineering, NIT Delhi",
           line2: "",
         },
-        
       },
     ],
   },
@@ -437,7 +425,6 @@ export const purchase = [
             "Department of Electronics and Communication Engineering, NIT Delhi",
           line2: "",
         },
-        
       },
 
       {
@@ -448,7 +435,6 @@ export const purchase = [
             "Department of Electronics and Communication Engineering, NIT Delhi",
           line2: "",
         },
-        
       },
 
       {
@@ -459,7 +445,6 @@ export const purchase = [
             "Department of Electronics and Communication Engineering, NIT Delhi",
           line2: "",
         },
-        
       },
       {
         name: "Dr. Preeti Verma",
@@ -469,7 +454,6 @@ export const purchase = [
             "Department of Electronics and Communication Engineering, NIT Delhi",
           line2: "",
         },
-        
       },
     ],
   },
@@ -487,7 +471,6 @@ export const technicalProgramCommittee = [
             "Department of Electrical and Electronics Engineering University of Bristol, United Kingdom",
           line2: "",
         },
-        
       },
       {
         name: "Prof. Richa Bhatia",
@@ -496,7 +479,6 @@ export const technicalProgramCommittee = [
             "Department of Electronics and Communication Engineering, NSUT East Campus, Delhi",
           line2: "",
         },
-        
       },
 
       {
@@ -505,7 +487,6 @@ export const technicalProgramCommittee = [
           line1: "Department of Computer Science Engineering, JNU, Delhi",
           line2: "",
         },
-        
       },
       {
         name: "Dr. Arun Kumar",
@@ -514,17 +495,14 @@ export const technicalProgramCommittee = [
             "Department of Electronics and Communication Engineering, NIT Silchar",
           line2: "",
         },
-        
       },
 
       {
         name: "Prof. Geeta Sikka",
         designation: "Professor and HOD",
         affiliation: { line1: "Department of CSE, NIT Delhi", line2: "" },
-        
       },
 
-      
       {
         name: "Dr. S. K. Tripathy",
         affiliation: {
@@ -532,7 +510,6 @@ export const technicalProgramCommittee = [
             "Department of Electronics and Communication Engineering, NIT Silchar",
           line2: "",
         },
-        
       },
 
       {
@@ -542,7 +519,6 @@ export const technicalProgramCommittee = [
             "Department of Electronics and Communication Engineering, Dr B R Ambedkar National Institute of Technology, Jalandhar",
           line2: "",
         },
-        
       },
 
       {
@@ -552,7 +528,6 @@ export const technicalProgramCommittee = [
             "Department of Electronics and Communication Engineering DTU, Delhi",
           line2: "",
         },
-        
       },
 
       {
@@ -562,7 +537,6 @@ export const technicalProgramCommittee = [
             "Department of Electronics and Communication Engineering, Dr B R Ambedkar National Institute of Technology, Jalandhar",
           line2: "",
         },
-        
       },
 
       {
@@ -572,7 +546,6 @@ export const technicalProgramCommittee = [
             "Department of Electronics and Electrical Engineering Indian Institute of Technology (ISM) Dhanbad",
           line2: "",
         },
-        
       },
 
       {
@@ -582,7 +555,6 @@ export const technicalProgramCommittee = [
             "University School of Information, Communication & Technology, GGSIPU, New Delhi",
           line2: "",
         },
-        
       },
 
       {
@@ -592,7 +564,6 @@ export const technicalProgramCommittee = [
             "Department of Electronics and Communication Engineering, NIT Kurukshetra",
           line2: "",
         },
-        
       },
 
       {
@@ -602,7 +573,6 @@ export const technicalProgramCommittee = [
             "Department of Electronics and Electrical Engineering, IIT Delhi",
           line2: "",
         },
-        
       },
 
       {
@@ -612,9 +582,7 @@ export const technicalProgramCommittee = [
             "Department of Computer Science Engineering NSUT East Campus, Delhi",
           line2: "",
         },
-        
       },
-
 
       {
         name: "Prof. Sandeep Arya",
@@ -623,7 +591,6 @@ export const technicalProgramCommittee = [
             "Department of Electronics and Communication Engineering GJUS&T, Hisar, Haryana",
           line2: "",
         },
-        
       },
 
       {
@@ -632,7 +599,6 @@ export const technicalProgramCommittee = [
           line1: "Department of Physics PEC Chandigarh",
           line2: "",
         },
-        
       },
 
       {
@@ -642,7 +608,6 @@ export const technicalProgramCommittee = [
             "Dept of Mathematics &amp; Scientific Computing NIT Hamirpur, H.P. , India",
           line2: "",
         },
-        
       },
 
       {
@@ -652,7 +617,6 @@ export const technicalProgramCommittee = [
             "Department of Electronics and Communication Engineering DCRUST, Murthal, Haryana",
           line2: "",
         },
-        
       },
       {
         name: "Prof. Amit Prakash Singh",
@@ -661,7 +625,7 @@ export const technicalProgramCommittee = [
             "University School of Information, Communication & Technology, GGSIPU, New Delhi",
           line2: "",
         },
-      }
+      },
     ],
   },
 ];
@@ -677,7 +641,6 @@ export const internationalAdvisoryCommittee = [
           line1: "National Yang Ming Chiao Tung University, Hsinchu, Taiwan",
           line2: "",
         },
-        
       },
       {
         name: "Prof. Jamal Deen",
@@ -685,7 +648,6 @@ export const internationalAdvisoryCommittee = [
           line1: "ECE Department, McMaster University Canada",
           line2: "",
         },
-        
       },
       {
         name: "Dr. Anirban Bandyopadhyay",
@@ -695,7 +657,6 @@ export const internationalAdvisoryCommittee = [
             "Strategic Applications, GLOBALFOUNDRIES, Inc., Santa Clara, California, USA",
           line2: "",
         },
-        
       },
 
       {
@@ -706,7 +667,6 @@ export const internationalAdvisoryCommittee = [
             "Liocheng University, China, School of Physics Science and Information Technology, China",
           line2: "",
         },
-        
       },
 
       {
@@ -717,7 +677,6 @@ export const internationalAdvisoryCommittee = [
             "Dept. of Electrical & Electronics Engg. Kingsway Campus Univ. of Johannesburg",
           line2: "",
         },
-        
       },
 
       {
@@ -728,7 +687,6 @@ export const internationalAdvisoryCommittee = [
             "Electrical and Computer Engineering, Biomedical Engineering, University of Saskatchewan",
           line2: "",
         },
-        
       },
 
       {
@@ -739,8 +697,7 @@ export const internationalAdvisoryCommittee = [
             "Department of Computer Science and Applied Statics, University of New Brunswick, Canada",
           line2: "",
         },
-        
-      }
+      },
     ],
   },
 ];
@@ -804,10 +761,11 @@ export const nationalAdvisoryCommittee = [
       {
         name: "Prof. Dharminder Kumar",
         affiliation: {
-          line1: "Professor Department of Computer Science & Engineering, GJUS&T, Hisar, Haryana",
+          line1:
+            "Professor Department of Computer Science & Engineering, GJUS&T, Hisar, Haryana",
           line2: "",
         },
-      }
+      },
     ],
   },
 ];
