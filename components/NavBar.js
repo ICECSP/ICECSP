@@ -2,7 +2,8 @@
 import { useState } from "react";
 import Link from "next/link";
 
-import nitdLogo from "@/public/nitd-logo.png";
+import nitdLogo from "@/public/images/nitd-logo.png";
+import ieeeLogo from "@/public/images/ieee.jpeg";
 import Image from "next/image";
 export default function NavBar() {
   const [menu, setMenu] = useState(false);
@@ -61,7 +62,15 @@ const Header = ({ menu, setMenu }) => {
           className="sm:max-h-16 max-h-10 object-contain sm:w-16 w-10 "
           alt="NITD"
         />
-        <span className="sm:text-3xl text-2xl font-bold text-primaryDark">ICECSP 2024</span>
+        <span className="hidden sm:block sm:text-3xl text-2xl font-bold text-primaryDark">ICECSP 2024</span>
+      </div>
+      <div className="space-y-2 ml-auto mr-8 sm:mr-0">
+        <Image
+          src={ieeeLogo}
+          className="object-contain w-28 mx-auto sm:w-36 "
+          alt="IEEE"
+        />
+        <div className="hidden sm:block text-xs text-center font-semibold text-gray-500">Technical Co-Sponsor</div>
       </div>
       <div className="md:hidden h-8 w-8 fill-slate-700" onClick={()=>setMenu(!menu)}>
         {menu ?
