@@ -13,7 +13,7 @@ export default function NavBar() {
   const [menu, setMenu] = useState(false);
   return (
     <>
-      <header className="sm:h-[15vh] h-[10vh] flex flex-col">
+      <header className="sm:h-[20vh] h-[10vh] flex flex-col">
         <Header menu={menu} setMenu={setMenu} />
       </header>
       <div className={`${menu ? "" : "hidden"} md:block`}>
@@ -68,42 +68,38 @@ const Header = ({ menu, setMenu }) => {
         />
         <span className="hidden sm:block sm:text-3xl text-2xl font-bold text-primaryDark">ICECSP 2024</span>
       </div>
-      <div className="flex gap-x-4 items-center">
-
-        <div className="ml-auto">
+      <div className="flex gap-x-3 items-center justify-start ml-auto">
+        <div className="hidden sm:block text-base text-center font-semibold text-gray-700">Technical Sponsors - </div>
+        <div>
           <Image
             src={IEEEPhotonic}
-            title="IEEEPhotonic Society Delhi Section Chapter, Rajasthan"
-            className="object-contain w-28 mx-auto sm:w-44 "
+            title="IEEE Photonic Society Delhi Section Chapter, Rajasthan"
+            className="object-contain h-16 mx-auto sm:h-32 w-fit"
             alt="IEEE"
           />
-          {/* <div className="hidden sm:block text-xs text-center font-semibold text-gray-500">Technical Co-Sponsor</div> */}
         </div>
-        <div className="">
+        <div>
           <Image
             src={IEEECircuits}
             title="IEEE Circuits and Systems Society Delhi Chapter"
-            className="object-contain w-28 mx-auto sm:w-20 "
+            className="object-contain h-28 mx-auto sm:h-32 w-fit"
             alt="IEEE"
           />
-          {/* <div className="hidden sm:block text-xs text-center font-semibold text-gray-500">Technical Co-Sponsor</div> */}
         </div>
-        <div className="">
+        <div>
           <Image
             src={IEEEElectron}
             title="IEEE Electron Device Society Delhi Chapter"
-            className="object-contain w-28 mx-auto sm:w-44 "
+            className="object-contain h-28 mx-auto sm:h-32 w-fit"
             alt="IEEE"
           />
-          {/* <div className="hidden sm:block text-xs text-center font-semibold text-gray-500">Technical Co-Sponsor</div> */}
         </div>
-        <div className="">
+        <div>
           <Image
             src={ieeeLogo}
-            className="object-contain w-28 mx-auto sm:w-48 "
+            className="object-contain h-28 mx-auto sm:h-32 w-fit"
             alt="IEEE"
           />
-          <div className="hidden sm:block text-xs text-center font-semibold text-gray-500">Technical Co-Sponsor</div>
         </div>
       </div>
       <div className="md:hidden h-8 w-8 fill-slate-700" onClick={() => setMenu(!menu)}>
@@ -115,3 +111,14 @@ const Header = ({ menu, setMenu }) => {
     </div>
   );
 };
+
+// const ImageHolder = ({ src, title, className }) => {
+//   return (<div>
+//     <Image
+//       src={src}
+//       title={title}
+//       className={className}
+//       alt={title}
+//     />
+//   </div>)
+// }
