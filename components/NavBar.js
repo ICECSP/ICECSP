@@ -3,11 +3,7 @@ import { useState } from "react";
 import Link from "next/link";
 
 import nitdLogo from "@/public/images/nitd-logo.png";
-import ieeeLogo from "@/public/images/ieee/ieee.jpeg";
-import IEEEPhotonic from "@/public/images/ieee/1.jpeg"
-import IEEECircuits from "@/public/images/ieee/2.jpg"
-import IEEEElectron from "@/public/images/ieee/3.jpg"
-
+import ieeeLogo from "@/public/images/ieee.jpeg";
 import Image from "next/image";
 export default function NavBar() {
   const [menu, setMenu] = useState(false);
@@ -68,39 +64,13 @@ const Header = ({ menu, setMenu }) => {
         />
         <span className="hidden sm:block sm:text-3xl text-2xl font-bold text-primaryDark">ICECSP 2024</span>
       </div>
-      <div className="flex gap-x-3 items-center justify-start ml-auto">
-        <div className="hidden sm:block text-base text-center font-semibold text-gray-700">Technical Sponsors - </div>
-        <div>
-          <Image
-            src={IEEEPhotonic}
-            title="IEEE Photonic Society Delhi Section Chapter, Rajasthan"
-            className="object-contain h-16 mx-auto sm:h-32 w-fit"
-            alt="IEEE"
-          />
-        </div>
-        <div>
-          <Image
-            src={IEEECircuits}
-            title="IEEE Circuits and Systems Society Delhi Chapter"
-            className="object-contain h-28 mx-auto sm:h-32 w-fit"
-            alt="IEEE"
-          />
-        </div>
-        <div>
-          <Image
-            src={IEEEElectron}
-            title="IEEE Electron Device Society Delhi Chapter"
-            className="object-contain h-28 mx-auto sm:h-32 w-fit"
-            alt="IEEE"
-          />
-        </div>
-        <div>
-          <Image
-            src={ieeeLogo}
-            className="object-contain h-28 mx-auto sm:h-32 w-fit"
-            alt="IEEE"
-          />
-        </div>
+      <div className="space-y-1 ml-auto mr-8 sm:mr-0">
+        <Image
+          src={ieeeLogo}
+          className="object-contain h-20 mx-auto sm:h-24 "
+          alt="IEEE"
+        />
+        <div className="hidden w-fit sm:block text-sm text-center font-semibold text-gray-500">Technical Sponsor</div>
       </div>
       <div className="md:hidden h-8 w-8 fill-slate-700" onClick={() => setMenu(!menu)}>
         {menu ?
@@ -111,14 +81,3 @@ const Header = ({ menu, setMenu }) => {
     </div>
   );
 };
-
-// const ImageHolder = ({ src, title, className }) => {
-//   return (<div>
-//     <Image
-//       src={src}
-//       title={title}
-//       className={className}
-//       alt={title}
-//     />
-//   </div>)
-// }
