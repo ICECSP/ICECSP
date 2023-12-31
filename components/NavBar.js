@@ -25,7 +25,7 @@ const links = [
   { name: "Call for Papers", link: "/callForPapers" },
   { name: "Tracks", link: "/tracks" },
   { name: "Important Dates", link: "/importantDates" },
-  { name: "Submissions", link: "/submissions" },
+  { name: "Paper Submissions", link: "/submissions" },
   { name: "Registration Fees", link: "/registrationFees" },
   { name: "Committees", link: "/committee" },
   // { name: "Contributors/Supporters", link: "/commingSoon" },
