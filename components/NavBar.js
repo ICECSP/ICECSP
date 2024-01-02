@@ -89,6 +89,7 @@ const IEEE = () => {
         className="object-cover mx-auto h-14 sm:h-20 w-fit"
         alt="IEEE"
       />
+      <div className="uppercase tracking-normal sm:tracking-widest text-xs sm:text-md sm:-mt-2 -mt-1 text-center font-bold text-primary90 m-2">record number#61809</div>
       <div className="uppercase tracking-normal sm:tracking-widest text-xs sm:text-md sm:-mt-2 -mt-1 text-center font-bold text-primary90">Technical Sponsor</div>
     </div>
   </>

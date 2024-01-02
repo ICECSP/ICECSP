@@ -7,5 +7,6 @@ export const aboutDept = [
 
 export const aboutConf = [
   "First International Conference on Electronics, Communication and Signal Processing (ICECSP 2024) provides a platform for researchers, academics, scholars, industry experts from India and the world to present and discuss their research findings in various areas of Electronics and Communication Engineering. However, ICECSP 2024 solicits original papers’ contributions in all related areas of Electronics Engineering. ICECSP 2024 is organized by Dept. of Electronics and communication Engineering, National Institute of Technology, Delhi during August 8-10 (Thursday – Saturday), 2024.",
-  "The major tracks of the conference are focused on Microelectronic Circuits and Systems, Communication Systems & Networks, Signal Processing & Applications, and VLSI Technology & Embedded Systems. The conference will feature keynote speakers, technical sessions, and workshops covering a wide range of topics related to Microelectronics, VLSI Design, Signal Processing and Communication systems",
+  "The major tracks of the conference are focused on Microelectronic Circuits and Systems, Communication Systems & Networks, Signal Processing & Applications, and VLSI Technology & Embedded Systems. The conference will feature keynote speakers, technical sessions, and workshops covering a wide range of topics related to Microelectronics, VLSI Design, Signal Processing and Communication systems.",
+  "The conference is technically supported by IEEE Delhi section (record number#61809)"
 ];
