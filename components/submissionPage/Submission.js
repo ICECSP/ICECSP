@@ -59,7 +59,7 @@ tracks proposed.
       <p className="text-justify mb-4">
         Interested authors are invited to submit full papers, including results, figures, and
         references. Papers will be accepted only by electronic submission through{" "}
-        <a href="Microsoft CMT link" className="text-primary90 underline">
+        <a target="_blank" href="https://cmt3.research.microsoft.com/ICECSP2024" className="text-primary90 underline">
           Microsoft CMT link
         </a>{" "}
         given below
