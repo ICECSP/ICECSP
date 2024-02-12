@@ -21,7 +21,7 @@ export default function LandingPage() {
           <Image priority className="object-cover sm:object-bottom w-full h-full saturate-[.9]" src={landingBg} alt="NIT Delhi" />
         </div>        
       </div>
-      <div className="text-center text-gray-500 my-4 font-serif">
+      <div className="text-center text-gray-500 my-4 ">
         <p>Created and Designed by: Mr. Shreyansh Gupta and Mr. Utkarsh Trivedi, B. Tech CSE 2nd Year Students, NIT Delhi</p>
         <p>Maintained by: Mr. Rishi Raj and Mr. Kartik Goyal, B. Tech ECE 3rd Year Students, NIT Delhi</p>
       </div>
