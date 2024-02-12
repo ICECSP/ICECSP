@@ -29,7 +29,7 @@ const links = [
   { name: "Registration Fees", link: "/registrationFees" },
   { name: "Committees", link: "/committee" },
   // { name: "Contributors/Supporters", link: "/commingSoon" },
-  { name: "Contributors", link: "/commingSoon" },
+  { name: "Contributors", link: "/contributors" },
   { name: "Contact", link: "/contact" },
 ];
 
