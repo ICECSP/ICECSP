@@ -11,6 +11,7 @@ export default function LandingPage() {
               <h1 className="bg-black/80 text-lg sm:text-2xl w-full mx-auto p-4 font-semibold">
                 First International Conference on Electronics, Communication and Signal Processing
                 <div className="my-2 font-bold"> {"( ICECSP - 2024 )"}</div>
+                <div className="my-2 font-bold text-lg">All Selected and presented Papers will be uploaded on the IEEE Xplore</div>
               </h1>
             </div>
             <Venue />
@@ -18,7 +19,11 @@ export default function LandingPage() {
         </div>
         <div className="w-full absolute inset-0">
           <Image priority className="object-cover sm:object-bottom w-full h-full saturate-[.9]" src={landingBg} alt="NIT Delhi" />
-        </div>
+        </div>        
+      </div>
+      <div className="text-center text-gray-500 my-4 ">
+        <p>Created and Designed by: Mr. Shreyansh Gupta and Mr. Utkarsh Trivedi, B. Tech CSE 2nd Year Students, NIT Delhi</p>
+        <p>Maintained by: Mr. Rishi Raj and Mr. Kartik Goyal, B. Tech ECE 3rd Year Students, NIT Delhi</p>
       </div>
     </>
   );
