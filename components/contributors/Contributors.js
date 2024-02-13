@@ -37,7 +37,7 @@ export default function Contributors(props) {
             <div className="mx-auto">
               <Image
                 src={member.photo}
-                alt="user"
+                alt={member.alt}
                 className={`object-cover rounded-md`}
                 width={320}
                 height={320}

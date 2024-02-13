@@ -10,20 +10,24 @@ export const contributorsImg = [
         {
             id:"1",
           photo: psRaj,
+          alt:"IEEE photonics",
         },
         {
             id:"2",
             photo: cas,
+            alt:"IEEE CAS",
           },
   
           {
             id:"3",
             photo: entuple,
+            alt:"ENTUPLE",
           },
   
           {
             id:"4",
             photo: khalsa,
+            alt:"KHALSA College"
           },
       ],
     },

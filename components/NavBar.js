@@ -88,7 +88,7 @@ const Header = ({ menu, setMenu }) => {
 const IEEE = () => {
   return <>
     <div className="flex flex-row justify-center justify-self-end">
-    <div clasName="flex justify-center">
+    <div className="flex flex-col justify-center">
       <Image
         src={ieeeLogo}
         className="object-cover mx-auto h-14 sm:h-20 w-fit"
@@ -97,6 +97,7 @@ const IEEE = () => {
       <div className="uppercase tracking-normal sm:tracking-widest text-xs sm:text-md sm:-mt-2 -mt-1 text-center font-bold text-primary90 m-2">record number#61809</div>
       <div className="uppercase tracking-normal sm:tracking-widest text-xs sm:text-md sm:-mt-2 -mt-1 text-center font-bold text-primary90">Technical Sponsor</div>
       </div>
+      <div className="hidden lg:flex flex-row justify-center justify-self-end">
       <Image
           src={psRaj}
           className="h-32 object-contain w-40"
@@ -117,7 +118,7 @@ const IEEE = () => {
           className="h-24 object-contain w-40 my-auto"
           alt="KHALSA COLLEGE"
         />
-      
+      </div>
     </div>
   </>
 }
