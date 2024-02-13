@@ -4,6 +4,10 @@ import Link from "next/link";
 
 import nitdLogo from "@/public/images/nitd-logo.png";
 import ieeeLogo from "@/public/images/ieee.png";
+import entuple from "@/public/images/contributors/ENTUPLE.png";
+import cas from "@/public/images/contributors/IEEE_CAS.jpg";
+import psRaj from "@/public/images/contributors/IEEE_PS_RAJ.webp";
+import khalsa from "@/public/images/contributors/KHALSA.webp";
 import Image from "next/image";
 export default function NavBar() {
   const [menu, setMenu] = useState(false);
@@ -83,7 +87,8 @@ const Header = ({ menu, setMenu }) => {
 
 const IEEE = () => {
   return <>
-    <div className="flex flex-col justify-center justify-self-end">
+    <div className="flex flex-row justify-center justify-self-end">
+    <div clasName="flex justify-center">
       <Image
         src={ieeeLogo}
         className="object-cover mx-auto h-14 sm:h-20 w-fit"
@@ -91,6 +96,28 @@ const IEEE = () => {
       />
       <div className="uppercase tracking-normal sm:tracking-widest text-xs sm:text-md sm:-mt-2 -mt-1 text-center font-bold text-primary90 m-2">record number#61809</div>
       <div className="uppercase tracking-normal sm:tracking-widest text-xs sm:text-md sm:-mt-2 -mt-1 text-center font-bold text-primary90">Technical Sponsor</div>
+      </div>
+      <Image
+          src={psRaj}
+          className="h-32 object-contain w-40"
+          alt="IEEE photonics society"
+        />
+        <Image
+          src={cas}
+          className="h-32 object-contain w-40"
+          alt="IEEE CAS"
+        />
+        <Image
+          src={entuple}
+          className="h-32 object-contain w-40"
+          alt="ENTUPLE"
+        />
+        <Image
+          src={khalsa}  
+          className="h-24 object-contain w-40 my-auto"
+          alt="KHALSA COLLEGE"
+        />
+      
     </div>
   </>
 }
