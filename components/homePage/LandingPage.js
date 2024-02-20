@@ -6,7 +6,7 @@ import Timeline from "./Timeline";
 export default function LandingPage() {
   return (
     <>
-      <div className="w-full h-[85vh] lg:h-[78vh] relative overflow-hidden">
+      <div className="w-full h-[95vh] lg:h-[85vh] relative overflow-hidden">
         <div className="flex h-full relative z-10">
           <div className="absolute bottom-2 sm:bottom-4 w-full mx-auto">
             <div className="text-center h-fit mb-4 text-white tracking-wider">
