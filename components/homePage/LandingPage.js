@@ -1,6 +1,8 @@
 import Image from "next/image";
 import landingBg from "@/public/images/landingBG.jpg";
 import Venue from "./Venue";
+import {dates} from "../importantDatesPage/data"
+import Timeline from "./Timeline";
 export default function LandingPage() {
   return (
     <>
@@ -14,7 +16,11 @@ export default function LandingPage() {
                 <div className="my-2 font-bold text-lg">All Selected and presented Papers will be uploaded on the IEEE Xplore</div>
               </h1>
             </div>
-            <Venue />
+            <Venue/>
+            <br />
+            {dates.map((item) => (
+              <Timeline key={item.date} date={item.date} text={item.text} />
+            ))}
           </div>
         </div>
         <div className="w-full absolute inset-0">

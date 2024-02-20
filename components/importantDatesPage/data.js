@@ -1,8 +1,8 @@
 export const dates = [
-  {
-    text: "Announcement of Conference",
-    date: "October 20, 2023",
-  },
+  // {
+  //   text: "Announcement of Conference",
+  //   date: "October 20, 2023",
+  // },
   {
     text: "Full Paper Submission Deadline",
     date: "April 26, 2024",
