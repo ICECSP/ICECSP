@@ -23,7 +23,7 @@ export default function TimeLine() {
                 <div className="hidden sm:flex w-full bg-gray-200 h-0.5"></div>
               </div>
               <div className="mt-3 sm:pr-8">
-                <h3 className="text-md font-semibold text-gray-900">
+                <h3 className="text-md font-semibold text-gray-900 dark:text-white dark:font-normal">
                   {elem.text}
                 </h3>
                 <time className="block mb-2 text-sm font-bold leading-none text-red-400">
