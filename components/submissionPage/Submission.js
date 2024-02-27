@@ -78,6 +78,12 @@ export default function SubmissionProcess() {
         All manuscripts submitted to ICECSP 2024 will follow the triple-blind
         review process.
       </p>
+      <p className="text-justify mb-4 text-lg sm:text-xl ">
+        <strong>Paper Submission:</strong>{" "}
+        <a href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICECSP2024" className="text-primary90 underline">
+          Submission Link
+        </a>
+      </p>
 
       <h4 className="text-primary90 text-2xl sm:text-3xl text-center font-bold mb-4 mt-8">
         Instructions

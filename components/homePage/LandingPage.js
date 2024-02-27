@@ -18,8 +18,8 @@ export default function LandingPage() {
             </div>
             <Venue/>
             <br />
-            {dates.map((item) => (
-              <Timeline key={item.date} date={item.date} text={item.text} />
+            {dates.map((item,id) => (
+              <Timeline key={id} date={item.date} text={item.text} />
             ))}
           </div>
         </div>
