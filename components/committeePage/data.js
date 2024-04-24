@@ -400,15 +400,6 @@ export const financeChair = [
           line2: "",
         },
       },
-      {
-        name: "Dr. Wangkheirakpam Vandana Devi",
-        designation: "Assistant Professor",
-        affiliation: {
-          line1:
-            "Department of Electronics and Communication Engineering, NIT Delhi",
-          line2: "",
-        },
-      },
     ],
   },
 ];
@@ -846,13 +837,6 @@ export const localOrganisingCommittee = [
       },
       {
         name: "Dr. Preeti Verma",
-        affiliation: {
-          line1: "ECE Department, NIT Delhi",
-          line2: "",
-        },
-      },
-      {
-        name: "Dr. W. Vandana Devi",
         affiliation: {
           line1: "ECE Department, NIT Delhi",
           line2: "",
