@@ -1,9 +1,17 @@
-import TimeLine from "@/components/tracksPage/Timeline";
-
+import TimeLine from "@/components/importantDatesPage/Timeline";
+import {
+  firstDates,
+  secondDates,
+  registrationDates,
+} from "@/components/importantDatesPage/data";
 export default function ImportantDates() {
   return (
-    <div className="container mt-6 sm:mt-12 px-2 sm:px-0 mx-auto">
-      <TimeLine />
-    </div>
+    <>
+      <div className="container mx-auto mt-10">
+        <TimeLine data={firstDates} title="First Round of Paper Submission"/>
+        <TimeLine data={secondDates} title="Second Round of Paper Submission (with extended Dates)" />
+        <TimeLine data={registrationDates} title="Registration for the Conference" />
+      </div>
+    </>
   );
 }
