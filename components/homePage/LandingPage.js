@@ -12,6 +12,7 @@ export default function LandingPage() {
               <h1 className="bg-black/80 text-lg sm:text-2xl w-full mx-auto p-4 font-semibold">
                 First International Conference on Electronics, Communication and Signal Processing
                 <div className="my-2 font-bold"> {"( ICECSP - 2024 )"}</div>
+                <div className="my-2 font-bold text-lg">Event Format: Hybrid(In-person and Virtual)</div>
                 <div className="my-2 font-bold text-lg">All Selected and presented Papers will be uploaded on the IEEE Xplore</div>
               </h1>
             </div>

@@ -63,7 +63,7 @@ export const tracks = [
     id: "communication",
   },
   {
-    heading: "Signal and Image Processing",
+    heading: "Signal Processing and Applications",
     support: ["IEEE Signal Processing Society"],
 
     subtracks: [
