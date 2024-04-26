@@ -88,7 +88,7 @@ export default function SubmissionProcess() {
       <h4 className="text-primary90 text-2xl sm:text-3xl text-center font-bold mb-4 mt-8">
         Instructions
       </h4>
-      <p className="text-justify mb-4">
+      <p className="leading-6 sm:leading-10 text-justify">
         All the applicants must have to be submitted the pdf version of the
         paper which is only process by the IEEE PDF Xpress site, as per the
         guidelines submitted below.
@@ -100,7 +100,7 @@ export default function SubmissionProcess() {
         2024 First International Conference on Electronics, Communication and
         Signal Processing (ICECSP)
       </p>
-      <p className="text-justify mb-4">
+      <p className="leading-6 sm:leading-10 text-justify">
         <strong>Before Creating a PDF</strong>
         <br />
         Add the copyright notice to the bottom of the first page of your source
@@ -125,12 +125,12 @@ export default function SubmissionProcess() {
       </p>
 
       <p className="text-justify mb-4">
-        <strong>Creating your PDF eXpress Account</strong>
+        <strong className="leading-6 sm:leading-10 text-justify">Creating your PDF eXpress Account</strong>
         <br />
         Log in to the{" "}
-        <a
+        <a 
           href="https://ieee-pdf-express.org/"
-          className="text-primary90 underline"
+          className="text-primary90 underline mb-4"
         >
           IEEE PDF eXpress TM site.
         </a>
@@ -138,29 +138,29 @@ export default function SubmissionProcess() {
         First-time users should do the following:
       </p>
       <ul className="list-disc pl-6">
-        <li>Select the New Users - Click Here link.</li>
-        <li>
+        <li className="mb-4">Select the New Users - Click Here link.</li>
+        <li className="mb-4">
           Enter the following:
-          <ul className="list-disc pl-6">
-            <li>61809X for the Conference ID</li>
-            <li>your email address</li>
-            <li>a password</li>
+          <ul className="list-disc pl-6 mt-4">
+            <li className="mb-4">61809X for the Conference ID</li>
+            <li className="mb-4">your email address</li>
+            <li className="mb-4">a password</li>
           </ul>
         </li>
-        <li>Continue to enter information as prompted.</li>
-        <li>
+        <li className="mb-4">Continue to enter information as prompted.</li>
+        <li className="mb-4">
           An Online confirmation will be displayed and an email confirmation
           will be sent verifying your account setup.
         </li>
       </ul>
-      <p className="text-justify mb-4">
+      <p className="leading-6 sm:leading-10 text-justify">
         {" "}
         Previous users of PDF eXpress need to follow the above steps, but should
         enter the same password that was used for previous conferences. Verify
         that your contact information is valid.
       </p>
-      <p className="text-justify mb-4">
-        <strong>Contacting PDF eXpress Support</strong>
+      <p className="leading-6 sm:leading-10 text-justify">
+        <strong className="leading-6 sm:leading-10 text-justify">Contacting PDF eXpress Support</strong>
         <br />
         Access the{" "}
         <a
@@ -178,10 +178,26 @@ export default function SubmissionProcess() {
         3 business days.
       </p>
 
+      <p className="text-justify mb-4">
+        <strong className="mb-4">Copyright form</strong>
+        <br />
+        <ul className="leading-6 sm:leading-10 text-justify list-disc">
+       <li className="mb-4"> After submission of the manuscript, a separate email will be sent in due course of time. (in case of paper acceptance).</li>
+       <li className="mb-4"> The proper guideline/ procedure regarding submission of copy right form will be mentioned in that email (in case of paper acceptance).</li>
+       <li className="mb-4"> It is advised that your manuscript is thoroughly checked and meet up all the minimum requirements, so that it may not require any revision. </li>
+       <li className="mb-4"> In case of any genuine query, please drop an email to <a
+          href="mailto:icecsp2024@nitdelhi.ac.in"
+          className="text-primary90 underline"
+        >
+          icecsp2024@nitdelhi.ac.in
+        </a>{" "} </li>
+        </ul>
+      </p>
+
       <h4 className="text-primary90 text-2xl sm:text-3xl text-center font-bold mb-4 mt-8">
         Plagiarism Policy
       </h4>
-      <p className="text-justify mb-4">
+      <p className="leading-6 sm:leading-10 text-justify">
         ICECSP 2024 will take plagiarism very seriously and regard plagiarism as
         a professional misconduct. All submissions will be screened for
         plagiarism with a permissible limit of 15 - 20% through Turnitin
