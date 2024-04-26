@@ -178,7 +178,7 @@ export default function SubmissionProcess() {
         3 business days.
       </p>
       <br />
-      <p className="text-justify mb-4">
+      <div className="text-justify mb-4">
         <strong className="mb-4">Copyright form</strong>
         <br />
         <ul className="leading-6 sm:leading-10 text-justify list-disc">
@@ -192,7 +192,7 @@ export default function SubmissionProcess() {
           icecsp2024@nitdelhi.ac.in
         </a>{" "} </li>
         </ul>
-      </p>
+      </div>
 
       <h4 className="text-primary90 text-2xl sm:text-3xl text-center font-bold mb-4 mt-8">
         Plagiarism Policy
