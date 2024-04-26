@@ -177,7 +177,7 @@ export default function SubmissionProcess() {
         Your question will be forwarded to IEEE PDF Support and answered within
         3 business days.
       </p>
-
+      <br />
       <p className="text-justify mb-4">
         <strong className="mb-4">Copyright form</strong>
         <br />
