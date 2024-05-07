@@ -8,6 +8,7 @@ import entuple from "@/public/images/contributors/ENTUPLE.png";
 import cas from "@/public/images/contributors/IEEE_CAS.jpg";
 import psRaj from "@/public/images/contributors/IEEE_PS_RAJ.webp";
 import khalsa from "@/public/images/contributors/KHALSA.webp";
+import silicom from "@/public/images/contributors/SILICOM_LOGO.jpg";
 import Image from "next/image";
 export default function NavBar() {
   const [menu, setMenu] = useState(false);
@@ -117,6 +118,11 @@ const IEEE = () => {
           src={khalsa}  
           className="h-24 object-contain w-40 my-auto"
           alt="KHALSA COLLEGE"
+        />
+        <Image
+          src={silicom}  
+          className="h-24 object-contain w-40 my-auto"
+          alt="Silicom Electronics"
         />
       </div>
     </div>

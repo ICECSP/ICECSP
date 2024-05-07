@@ -34,7 +34,7 @@ export default function Contributors(props) {
     return (
         <div className={`flex justify-center relative w-32 sm:w-48 overflow-hidden hover:scale-[1.02] transition-[shadow,transform] ${member.photo ? "min-h-[14rem] sm:min-h-[15rem] mt-14" : "min-h-[5rem]"}`}>
         {member.photo &&
-            <div className="mx-auto">
+            <div className="mx-auto my-auto">
               <Image
                 src={member.photo}
                 alt={member.alt}
