@@ -7,7 +7,7 @@ export default function TimeLine() {
         TimeLine
       </h3>
       <ul className="items-baseline sm:flex">
-        {dates.map((elem, idx) => {
+        {dates.map((element, idx) => {
           return (
             <li key={idx} className="relative mb-6 sm:mb-0 flex sm:block gap-x-3">
               <div className="flex items-center">
@@ -24,10 +24,10 @@ export default function TimeLine() {
               </div>
               <div className="mt-3 sm:pr-8">
                 <h3 className="text-md font-semibold text-gray-900 dark:text-white dark:font-normal">
-                  {elem.text}
+                  {element.text}
                 </h3>
                 <time className="block mb-2 text-sm font-bold leading-none text-red-400">
-                  {elem.date}
+                  {element.date}
                 </time>
               </div>
             </li>

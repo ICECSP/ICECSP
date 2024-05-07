@@ -34,7 +34,7 @@ export const contributorsImg = [
           {
             id:"5",
             photo: silicom,
-            alt:"silicom Electronics"
+            alt:"Silicom Electronics"
           },
       ],
     },

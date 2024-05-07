@@ -122,7 +122,7 @@ const IEEE = () => {
         <Image
           src={silicom}  
           className="h-24 object-contain w-40 my-auto"
-          alt="Silicom Electronics"
+          alt="SILICOM ELECTRONICS"
         />
       </div>
     </div>

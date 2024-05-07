@@ -9,8 +9,8 @@ export default function Timeline({ data, title, borderClassNameTop,borderClassNa
           <thead>
           </thead>
           <tbody>
-            {data.map((item) => (
-              <tr key={item.id} className="border-b border-gray-600">
+            {data.map((item,id) => (
+              <tr key={id} className="border-b border-gray-600">
                 <td className="px-6 py-1 whitespace-no-wrap border-r border-gray-600 text-gray-800 w-3/5">
                   {item.text}
                 </td>
