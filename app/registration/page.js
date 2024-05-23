@@ -8,7 +8,7 @@ import RegistrationForm from "@/components/registrationFeePage/RegistrationForm"
 export default function Registration() {
   return (
     <>
-      <div className="bg-primary05 p-6 rounded-sm pl-20">
+      <div className="mt-6 bg-primary05 p-6 rounded-sm pl-20">
       <strong className="text-primary90 text-4xl p-4">Click here for registration:</strong>
         <a
           href="https://forms.gle/smtYAjf3oTLRJqat6"
