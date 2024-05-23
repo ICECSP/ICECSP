@@ -135,8 +135,9 @@ export default function SubmissionProcess() {
           IEEE PDF eXpress TM site.
         </a>
         <br />
-        First-time users should do the following:
       </p>
+      <p className="text-justify mb-4">First-time users should do the following:
+</p>
       <ul className="list-disc pl-6">
         <li className="mb-4">Select the New Users - Click Here link.</li>
         <li className="mb-4">
