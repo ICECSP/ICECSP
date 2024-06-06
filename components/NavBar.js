@@ -35,6 +35,7 @@ const links = [
   { name: "Committees", link: "/committee" },
   // { name: "Contributors/Supporters", link: "/commingSoon" },
   { name: "Contributors", link: "/contributors" },
+  { name: "Accomodations", link: "/accomodation" },
   { name: "Contact", link: "/contact" },
 ];
 
