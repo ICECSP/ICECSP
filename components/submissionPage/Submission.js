@@ -100,7 +100,8 @@ export default function SubmissionProcess() {
         2024 First International Conference on Electronics, Communication and
         Signal Processing (ICECSP)
       </p>
-      <p className="leading-6 sm:leading-10 text-justify">
+
+      {/* <p className="leading-6 sm:leading-10 text-justify">
         <strong>Before Creating a PDF</strong>
         <br />
         Add the copyright notice to the bottom of the first page of your source
@@ -122,7 +123,7 @@ export default function SubmissionProcess() {
         </a>{" "}
         for the appropriate copyright notice. Proofread your source document
         thoroughly to confirm that it will require no revision.
-      </p>
+      </p> */}
 
       <p className="text-justify mb-4">
         <strong className="leading-6 sm:leading-10 text-justify">Creating your PDF eXpress Account</strong>
