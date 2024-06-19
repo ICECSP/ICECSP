@@ -56,6 +56,9 @@ export default function Registration() {
           <li>
             <strong>IFSC:</strong> ICIC0000929
           </li>
+          <li>
+           <strong>SWIFT code:</strong> ICICINBBNR
+          </li>
         </ul>
       </div>
 
