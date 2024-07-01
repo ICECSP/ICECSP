@@ -50,7 +50,7 @@ export const secondDates = [
   },
   {
     text: "Final Camera-Ready Paper Submission",
-    date: "On or before June 30, 2024",
+    date: "On or before July 10, 2024",
   },
 ];
 export const registrationDates = [
@@ -60,7 +60,7 @@ export const registrationDates = [
   },
   {
     text: "Last date for Registration",
-    date: "July 05, 2024",
+    date: "July 10, 2024",
   },
   {
     text: "Conference Dates",
