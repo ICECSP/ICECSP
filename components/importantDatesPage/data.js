@@ -51,6 +51,7 @@ export const secondDates = [
   {
     text: "Final Camera-Ready Paper Submission",
     date: "On or before July 15, 2024",
+    date: "On or before July 10, 2024",
   },
 ];
 export const registrationDates = [
