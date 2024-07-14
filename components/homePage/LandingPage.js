@@ -18,10 +18,7 @@ export default function LandingPage() {
 
 
               <h1 className="bg-black/80 text-sm sm:text-xl w-full mx-auto p-5 m-2 ">
-              Dear Authors, <br/>
-              Paper registration is open for the First International Conference on Electronics, Communication, and Signal Processing ICECSP 2024. Decisions for the 1st round have already been communicated, and decisions for the 2nd round are underway. Authors of accepted papers need to submit the camera-ready paper and IEEE copyright form through CMT as per instructions sent through email. 
-                <div className="my-2 font-bold text-lg">Registration's last date is July 05, 2024.</div>
-                <div className="my-2 font-bold text-sm">Thanks, Organising Team (ICECSP 2024)</div>
+              NIT Delhi will not be able to provide any accommodation during the ICECSP 2024 conference, however, for the convenience of participants, details of few nearby hotels are enlisted in the accommodation page on this website (Website --&gt; Accommodations).
               </h1>
 
             </div>
