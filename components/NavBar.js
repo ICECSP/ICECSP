@@ -33,6 +33,7 @@ const links = [
   { name: "Paper Submissions", link: "/submissions" },
   { name: "Registration", link: "/registration" },
   { name: "Committees", link: "/committee" },
+  {name: "Schedule", link: "/schedule"},
   // { name: "Contributors/Supporters", link: "/commingSoon" },
   { name: "Contributors", link: "/contributors" },
   { name: "Accomodations", link: "/accomodation" },

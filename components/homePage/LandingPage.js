@@ -2,6 +2,7 @@ import Image from "next/image";
 import landingBg from "@/public/images/landingBG.jpg";
 import Venue from "./Venue";
 import Timeline from "./Timeline";
+import Link from "next/link";
 export default function LandingPage() {
   return (
     <>
@@ -16,7 +17,12 @@ export default function LandingPage() {
                 <div className="my-2 font-bold text-lg">All Selected and presented Papers will be uploaded on the IEEE Xplore</div>
               </h1>
 
+              <h1 className="bg-black/80 text-sm sm:text-xl w-full mx-auto p-5 m-2 ">
+              This is a very tentative programme schedule and will be updated from time to time. Hence, applicants are kindly requested to keep on viewing in regular intervals. In case of any query, please drop an email to <a href="mailto:icecsp2024@nitdelhi.ac.in" className="text-blue-500">icecsp2024@nitdelhi.ac.in</a>.
+              <p className="blue-300"> <a href="..\docs\PROGRAM_SCHEDULE.pdf" className="text-blue-500">Tentative Programme Schedule</a> </p>
 
+
+              </h1>
               <h1 className="bg-black/80 text-sm sm:text-xl w-full mx-auto p-5 m-2 ">
               NIT Delhi will not be able to provide any accommodation during the ICECSP 2024 conference, however, for the convenience of participants, details of few nearby hotels are enlisted in the accommodation page on this website (Website --&gt; Accommodations).
               </h1>
