@@ -3,6 +3,7 @@ import {
   technicalProgramCommittee,
   internationalAdvisoryCommittee,
   honoraryChair,
+  chiefPatron,
   organizingSecretary,
   oversightCommittee,
   technicalProgramChair,
@@ -20,6 +21,7 @@ import {
 export default function Committees() {
   return (
     <>
+      <Committee data={chiefPatron} even={true} />
       <Committee data={honoraryChair} even={false} />
       <Committee data={conferenceGeneralChair} even={true} />
       <Committee data={conferenceChair} even={false} />

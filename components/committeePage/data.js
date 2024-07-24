@@ -8,6 +8,7 @@ import bkkanaujia from "@/public/images/committees/bkkanaujia.jpg";
 import bvrreddy from "@/public/images/committees/bvrreddy.jpg";
 import nupurprakash from "@/public/images/committees/nupurprakash.jpg";
 import ghanshyamsingh from "@/public/images/committees/ghanshyamsingh.png";
+import ckbirla from "@/public/images/committees/ckbirla.jpg";
 
 //oversight
 import ashuverma from "@/public/images/committees/oversight/ashu_verma.jpg";
@@ -16,6 +17,19 @@ import maheshbundele from "@/public/images/committees/oversight/maheshbundele.jp
 import pkgupta from "@/public/images/committees/oversight/pkgupta.jpg";
 import rajnishsharma from "@/public/images/committees/oversight/rajnishsharma.jpg";
 
+export const chiefPatron = [
+  {
+    type: "CHIEF PATRON",
+    members: [
+      {
+        name: "Shri C.K. Birla",
+        designation: "Chairman, C.K. Birla Group, New Delhi",
+        affiliation: { line1: "And the Chairperson of Board of Governors, NIT Delhi", line2: "" },
+        photo: ckbirla,
+      },
+    ],
+  },
+];
 export const honoraryChair = [
   {
     type: "HONORARY CHAIR",
@@ -51,7 +65,7 @@ export const conferenceChair = [
     members: [
       {
         name: "Prof. (Dr.) Manoj Kumar",
-        designation: "HOD & Professor",
+        designation: "Associate Professor",
         affiliation: {
           line1:
             "Department of Electronics and Communication Engineering, NIT Delhi",
@@ -68,7 +82,7 @@ export const organizingSecretary = [
     members: [
       {
         name: "Dr. Rikmantra Basu",
-        designation: "Associate Professor",
+        designation: "HOD & Professor",
         affiliation: {
           line1:
             "Department of Electronics and Communication Engineering, NIT Delhi",
@@ -167,7 +181,7 @@ export const steeringCommittee = [
 
       {
         name: "Prof. (Dr.) Manoj Kumar",
-        designation: "HOD & Professor",
+        designation: "Associate Professor",
         affiliation: {
           line1:
             "Department of Electronics and Communication Engineering, NIT Delhi",
@@ -245,7 +259,7 @@ export const publicationCommittee = [
       },
       {
         name: "Prof. (Dr.) Manoj Kumar",
-        designation: "HOD & Professor",
+        designation: "Associate Professor",
         affiliation: {
           line1:
             "Department of Electronics and Communication Engineering, NIT Delhi",
