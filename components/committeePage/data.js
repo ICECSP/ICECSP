@@ -82,7 +82,7 @@ export const organizingSecretary = [
     members: [
       {
         name: "Dr. Rikmantra Basu",
-        designation: "HOD & Professor",
+        designation: "HOD & Associate Professor",
         affiliation: {
           line1:
             "Department of Electronics and Communication Engineering, NIT Delhi",
