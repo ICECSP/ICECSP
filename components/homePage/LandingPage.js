@@ -21,7 +21,7 @@ export default function LandingPage() {
               <h1 className="bg-black/80 text-sm sm:text-xl w-full mx-auto p-5 m-2">
                 Programme Schedule:{" "}
                 <a
-                  href="..\docs\PROGRAM_SCHEDULE_3.pdf"
+                  href="..\docs\PROGRAM_SCHEDULE.pdf"
                   className="text-blue-500"
                 >
                   Schedule

@@ -7,7 +7,7 @@ const Schedule = () => {
       Tentative Programme Schedule
       </h2>
       <h1 className=" sm:text-xl w-full mx-auto p-5 m-2 ">
-              <p className="blue-300">To Download Program Schedule click here:  <a href="..\docs\PROGRAM_SCHEDULE_3.pdf" className="text-blue-500 text-center">Programme Schedule</a> </p>
+              <p className="blue-300">To Download Program Schedule click here:  <a href="..\docs\PROGRAM_SCHEDULE.pdf" className="text-blue-500 text-center">Programme Schedule</a> </p>
 
               </h1>
     </div>
