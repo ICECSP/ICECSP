@@ -12,8 +12,10 @@ import {
   conferenceChair,
   steeringCommittee,
   publicationCommittee,
+  conferenceCommittee,
   websiteUpdationCommittee,
   hospitality,
+  managementCommittee,
   purchase,
   nationalAdvisoryCommittee,
   localOrganisingCommittee,
@@ -39,11 +41,11 @@ export default function Committees() {
       <Committee data={nationalAdvisoryCommittee} even={true} onlyData = {true}/>
       <Committee data={technicalProgramCommittee} even={false} onlyData = {true}/>
       <Committee data={localOrganisingCommittee} even={true} onlyData = {true}/>
+      <Committee data={conferenceCommittee} even={false} onlyData = {true}/>
+      <Committee data={purchase} even={true} onlyData = {true}/>
+      <Committee data={managementCommittee} even={false} onlyData = {true}/>
+      <Committee data={hospitality} even={true} onlyData = {true}/>
       <Committee data={publicationCommittee} even={false} onlyData = {true}/>
-      <Committee data={websiteUpdationCommittee} even={true} onlyData = {true}/>
-      <Committee data={hospitality} even={false} onlyData = {true}/>
-      <Committee data={financeChair} even={true} onlyData = {true}/>
-      <Committee data={purchase} even={false} onlyData = {true}/>
     </>
   );
 }

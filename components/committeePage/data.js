@@ -248,18 +248,13 @@ export const oversightCommittee = [
     ],
   },
 ];
-export const publicationCommittee = [
+export const conferenceCommittee = [
   {
-    type: "PUBLICATION COMMITTEE",
+    type: "CONFERENCE PROGRAM COMMITTEE",
     members: [
       {
-        name: "Prof. Jasdeep Kaur Dhanoa(CHAIR)",
-        designation: "Professor",
-        affiliation: { line1: "Dept. of ECE, IGDTUW Delhi", line2: "" },
-      },
-      {
-        name: "Prof. (Dr.) Manoj Kumar",
-        designation: "Associate Professor",
+        name: "Dr. Manisha Bharti",
+        designation: "Faculty-in-charge, Associate Professor",
         affiliation: {
           line1:
             "Department of Electronics and Communication Engineering, NIT Delhi",
@@ -268,8 +263,8 @@ export const publicationCommittee = [
       },
 
       {
-        name: "Prof. Jyoteesh Malhotra",
-        designation: "Professor",
+        name: "Dr. Rikmantra Basu",
+        designation: "Associate Professor",
         affiliation: {
           line1:
             "Department of Electronics and Communication Engineering, NIT Delhi",
@@ -286,9 +281,8 @@ export const publicationCommittee = [
           line2: "",
         },
       },
-
       {
-        name: "Dr. D. Vaithiyanathan",
+        name: "Dr. Dharmendra K. Jhariya",
         designation: "Assistant Professor",
         affiliation: {
           line1:
@@ -296,9 +290,17 @@ export const publicationCommittee = [
           line2: "",
         },
       },
-
       {
-        name: "Dr. Sandeep Kumar",
+        name: "Dr. Baljit Kaur",
+        designation: "Assistant Professor",
+        affiliation: {
+          line1:
+            "Department of Electronics and Communication Engineering, NIT Delhi",
+          line2: "",
+        },
+      },
+      {
+        name: "Dr. Manish Verma",
         designation: "Assistant Professor",
         affiliation: {
           line1:
@@ -310,10 +312,30 @@ export const publicationCommittee = [
   },
 ];
 
-export const websiteUpdationCommittee = [
+export const publicationCommittee = [
   {
-    type: "WEBSITE DESIGN & UPDATION",
+    type: "PUBLICATION COMMITTEE",
     members: [
+      {
+        name: "Prof. (Dr.) Manoj Kumar",
+        designation: "Faculty-in-charge, Professor",
+        affiliation: {
+          line1:
+            "Department of Electronics and Communication Engineering, NIT Delhi",
+          line2: "",
+        },
+      },
+
+      {
+        name: "Prof. (Dr.) Jyoteesh Malhotra",
+        designation: "Professor",
+        affiliation: {
+          line1:
+            "Department of Electronics and Communication Engineering, NIT Delhi",
+          line2: "",
+        },
+      },
+
       {
         name: "Dr. Manisha Bharti",
         designation: "Associate Professor",
@@ -332,9 +354,8 @@ export const websiteUpdationCommittee = [
           line2: "",
         },
       },
-
       {
-        name: "Dr. Sachin Agrawal",
+        name: "Dr. D. Vaithiyanathan",
         designation: "Assistant Professor",
         affiliation: {
           line1:
@@ -343,8 +364,92 @@ export const websiteUpdationCommittee = [
         },
       },
       {
-        name: "Dr. Preeti Verma",
+        name: "Dr. Dharmendra K. Jhariya",
         designation: "Assistant Professor",
+        affiliation: {
+          line1:
+            "Department of Electronics and Communication Engineering, NIT Delhi",
+          line2: "",
+        },
+      },
+      {
+        name: "Dr. Manish Verma",
+        designation: "Assistant Professor",
+        affiliation: {
+          line1:
+            "Department of Electronics and Communication Engineering, NIT Delhi",
+          line2: "",
+        },
+      },
+    ],
+  },
+];
+
+
+export const managementCommittee = [
+  {
+    type: "Registration, Decoration & Stage Management Committee",
+    members: [
+      
+      {
+        name: "Dr. Sandeep Kumar",
+        designation: "Faculty-in-Charge, Assistant Professor",
+        affiliation: {
+          line1:
+            "Department of Electronics and Communication Engineering, NIT Delhi",
+          line2: "",
+        },
+      },
+      {
+        name: "Prof. (Dr.) Jyoteesh Malhotra",
+        designation: "Professor",
+        affiliation: {
+          line1:
+            "Department of Electronics and Communication Engineering, NIT Delhi",
+          line2: "",
+        },
+      },
+      
+      {
+        name: "Dr. Rikmantra Basu",
+        designation: "Associate Professor",
+        affiliation: {
+          line1:
+            "Department of Electronics and Communication Engineering, NIT Delhi",
+          line2: "",
+        },
+      },
+      {
+        name: "Dr. Manisha Bharti",
+        designation: "Associate Professor",
+        affiliation: {
+          line1:
+            "Department of Electronics and Communication Engineering, NIT Delhi",
+          line2: "",
+        },
+      },
+      {
+        name: "Dr. Dharmendra Kr. Jhariya",
+        designation: "Assistant Professor",
+        affiliation: {
+          line1:
+            "Department of Electronics and Communication Engineering, NIT Delhi",
+          line2: "",
+        },
+      },
+      
+      {
+        name: "Mr. Surender Kumar",
+        designation: "Senior Technical Assistant",
+        affiliation: {
+          line1:
+            "Department of Electronics and Communication Engineering, NIT Delhi",
+          line2: "",
+        },
+      },
+      {
+        name: "Mr. Pravesh Kumar Ranga",
+        designation: "Junior Assistant",
         affiliation: {
           line1:
             "Department of Electronics and Communication Engineering, NIT Delhi",
@@ -357,8 +462,37 @@ export const websiteUpdationCommittee = [
 
 export const hospitality = [
   {
-    type: "HOSPITALITY AND FOOD MANAGEMENT",
+    type: "HOSPITALITY COMMITTEE & FOOD COMMITTEE",
     members: [
+      
+      {
+        name: "Dr. Nitin Singh Singha",
+        designation: "Faculty-in-Charge, Assistant Professor",
+        affiliation: {
+          line1:
+            "Department of Electronics and Communication Engineering, NIT Delhi",
+          line2: "",
+        },
+      },
+      {
+        name: "Dr. Rikmantra Basu",
+        designation: "Associate Professor",
+        affiliation: {
+          line1:
+            "Department of Electronics and Communication Engineering, NIT Delhi",
+          line2: "",
+        },
+      },
+      
+      {
+        name: "Dr. Manisha Bharti",
+        designation: "Associate Professor",
+        affiliation: {
+          line1:
+            "Department of Electronics and Communication Engineering, NIT Delhi",
+          line2: "",
+        },
+      },
       {
         name: "Dr. Sachin Agrawal",
         designation: "Assistant Professor",
@@ -368,17 +502,6 @@ export const hospitality = [
           line2: "",
         },
       },
-
-      {
-        name: "Dr. Nitin Singh Singha",
-        designation: "Assistant Professor",
-        affiliation: {
-          line1:
-            "Department of Electronics and Communication Engineering, NIT Delhi",
-          line2: "",
-        },
-      },
-
       {
         name: "Dr. Mahesh Kumar Singh",
         designation: "Assistant Professor",
@@ -390,7 +513,7 @@ export const hospitality = [
       },
 
       {
-        name: "Dr. Preeti Verma",
+        name: "Dr. Manish Verma",
         designation: "Assistant Professor",
         affiliation: {
           line1:
@@ -398,16 +521,10 @@ export const hospitality = [
           line2: "",
         },
       },
-    ],
-  },
-];
-export const financeChair = [
-  {
-    type: "FINANCE CHAIR/TREASURER",
-    members: [
+      
       {
-        name: "Dr. D. Vaithiyanathan",
-        designation: "Assistant Professor",
+        name: "Dr. Surender Kumar",
+        designation: "Senior Technical Assistant",
         affiliation: {
           line1:
             "Department of Electronics and Communication Engineering, NIT Delhi",
@@ -423,6 +540,15 @@ export const purchase = [
     type: "PURCHASE COMMITTEE",
     members: [
       {
+        name: "Dr. Preeti Verma",
+        designation: "Faculty-in-charge, Assistant Professor",
+        affiliation: {
+          line1:
+            "Department of Electronics and Communication Engineering, NIT Delhi",
+          line2: "",
+        },
+      },
+      {
         name: "Dr. D. Vaithiyanathan",
         designation: "Assistant Professor",
         affiliation: {
@@ -431,9 +557,26 @@ export const purchase = [
           line2: "",
         },
       },
-
       {
-        name: "Dr. Sandeep Kumar",
+        name: "Dr. Baljit Kaur",
+        designation: "Assistant Professor",
+        affiliation: {
+          line1:
+            "Department of Electronics and Communication Engineering, NIT Delhi",
+          line2: "",
+        },
+      },
+      {
+        name: "Dr. Nitin Singh Singha",
+        designation: "Assistant Professor",
+        affiliation: {
+          line1:
+            "Department of Electronics and Communication Engineering, NIT Delhi",
+          line2: "",
+        },
+      },
+      {
+        name: "Dr. Mahesh Kr. Singh",
         designation: "Assistant Professor",
         affiliation: {
           line1:
@@ -443,8 +586,8 @@ export const purchase = [
       },
 
       {
-        name: "Dr. Dharmendra K Jhariya",
-        designation: "Assistant Professor",
+        name: "Mr. Surender Kumar",
+        designation: "Senior Technical Assistant",
         affiliation: {
           line1:
             "Department of Electronics and Communication Engineering, NIT Delhi",
@@ -452,8 +595,8 @@ export const purchase = [
         },
       },
       {
-        name: "Dr. Preeti Verma",
-        designation: "Assistant Professor",
+        name: "Mr. Pravesh Kumar Ranga",
+        designation: "Junior Assistant",
         affiliation: {
           line1:
             "Department of Electronics and Communication Engineering, NIT Delhi",
