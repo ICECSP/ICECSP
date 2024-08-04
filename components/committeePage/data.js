@@ -250,7 +250,7 @@ export const oversightCommittee = [
 ];
 export const conferenceCommittee = [
   {
-    type: "CONFERENCE PROGRAM COMMITTEE",
+    type: "CONFERENCE PROGRAMME COMMITTEE",
     members: [
       {
         name: "Dr. Manisha Bharti",
@@ -264,16 +264,6 @@ export const conferenceCommittee = [
 
       {
         name: "Dr. Rikmantra Basu",
-        designation: "Associate Professor",
-        affiliation: {
-          line1:
-            "Department of Electronics and Communication Engineering, NIT Delhi",
-          line2: "",
-        },
-      },
-
-      {
-        name: "Dr. Manisha Bharti",
         designation: "Associate Professor",
         affiliation: {
           line1:
@@ -503,7 +493,7 @@ export const hospitality = [
         },
       },
       {
-        name: "Dr. Mahesh Kumar Singh",
+        name: "Dr. Mahesh K. Singh",
         designation: "Assistant Professor",
         affiliation: {
           line1:
@@ -523,7 +513,7 @@ export const hospitality = [
       },
       
       {
-        name: "Dr. Surender Kumar",
+        name: "Mr. Surender Kumar",
         designation: "Senior Technical Assistant",
         affiliation: {
           line1:
