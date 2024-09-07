@@ -41,14 +41,44 @@ export default function LandingPage() {
           />
         </div>
       </div>
-      <div className="text-center text-gray-500 my-4">
+      <div className="text-center text-gray-400 my-4">
         <p>
-          Created and Designed by: Mr. Shreyansh Gupta and Mr. Utkarsh Trivedi,
-          B. Tech CSE 2nd Year Students, NIT Delhi
+          Created and Designed by: {" "}
+          <a
+            href="https://www.linkedin.com/in/shreyanshgupta001/"
+            target="_blank"
+            className="underline hover:text-blue-500"
+          >
+            Mr. Shreyansh Gupta {" "}
+          </a>
+          and {" "}
+          <a
+            href="https://www.linkedin.com/in/trivedi-utkarsh/"
+            target="_blank"
+            className="underline hover:text-blue-500"
+          >
+            Mr. Utkarsh Trivedi {" "}
+          </a>
+          , B. Tech CSE 2nd Year Students, NIT Delhi
         </p>
         <p>
-          Maintained by: Mr. Rishi Raj and Mr. Kartik Goyal, B. Tech ECE 3rd
-          Year Students, NIT Delhi
+          Maintained by: {" "}
+          <a
+            href="https://www.linkedin.com/in/rishi-raj-516409183/"
+            target="_blank"
+            className="underline hover:text-blue-500"
+          >
+            Mr. Rishi Raj {" "}
+          </a>
+          and {" "}
+          <a
+            href="https://www.linkedin.com/in/kartik-goyal-5b2548229/"
+            target="_blank"
+            className="underline hover:text-blue-500"
+          >
+            Mr. Kartik Goyal {" "}
+          </a>
+          , B. Tech ECE 3rd Year Students, NIT Delhi
         </p>
       </div>
     </>
