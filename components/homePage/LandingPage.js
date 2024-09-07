@@ -3,6 +3,7 @@ import landingBg from "@/public/images/landingBG.jpg";
 import Venue from "./Venue";
 import Timeline from "./Timeline";
 import Link from "next/link";
+import BestPaper from "./BestPaper.js"
 export default function LandingPage() {
   return (
     <>
@@ -18,18 +19,10 @@ export default function LandingPage() {
                 based on the performance evaluation by the Respective Session
                 Chair and the Programme Committee to encourage the participants.
               </h1>
-              <h1 className="bg-black/80 text-sm sm:text-xl w-full mx-auto p-5 m-2">
-                Programme Schedule:{" "}
-                <a
-                  href="..\docs\PROGRAM_SCHEDULE.pdf"
-                  className="text-blue-500"
-                >
-                  Schedule
-                </a>
-              </h1>
             </div>
             <Venue />
             {/* <Timeline /> */}
+            <BestPaper />
           </div>
         </div>
         <div className="w-full absolute inset-0">
